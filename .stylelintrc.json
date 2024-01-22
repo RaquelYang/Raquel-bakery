@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-prettier",
+    "stylelint-config-sass-guidelines"
+  ],
+  "ignoreFiles": ["src/assets/**/*.scss"],
+  "rules": {
+    "indentation": [
+      4,
+      {
+        "severity": "warning"
+      }
+    ],
+    "order/properties-order": ["padding", "color", "padding-top"]
+  }
+}
