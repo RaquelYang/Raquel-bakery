@@ -1,9 +1,46 @@
-<button mat-raised-button>Basic</button>
-<button mat-raised-button color="primary">Primary</button>
-<button mat-raised-button color="accent">Accent</button>
-<button mat-raised-button color="warn">Warn</button>
-<button mat-raised-button disabled>Disabled</button>
+<div class="h-screen">
+  <mat-toolbar>
+    <span>Raquel Bakery CMS 登入系統</span>
+  </mat-toolbar>
+  <div class="h-form flex items-center">
+    <form class="text-center" [formGroup]="form">
+      <mat-form-field class="w-96">
+        <mat-label>帳號</mat-label>
+        <input
+          matInput
+          type="text"
+          placeholder="請輸入帳號"
+          formControlName="account"
+        >
+        @if (account?.hasError('required')) {
+          <mat-error>帳號為必填</mat-error>
+        }
+      </mat-form-field>
+      <mat-form-field class="w-96">
+        <mat-label>密碼</mat-label>
+        <input
+          matInput
+          [type]="lock ? 'password' : 'text'"
+          placeholder="請輸入密碼"
+          formControlName="password"
+        >
+          <button type='button' matSuffix mat-icon-button (click)="lock = !lock;">
+            <mat-icon *ngIf="lock; else tLockOpen">lock</mat-icon>
+            <ng-template #tLockOpen>
+              <mat-icon>lock_open</mat-icon>
+            </ng-template>
+          </button>
 
-<h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
+        @if (password?.hasError('required')) {
+          <mat-error>密碼為必填</mat-error>
+        }
+      </mat-form-field>
+      <div class="w-96 inline-block">
+        <button class="w-full" mat-raised-button color="primary" [disabled]="form.invalid">登入</button>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+
