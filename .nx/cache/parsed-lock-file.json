@@ -63,6 +63,15 @@
         "hash": "sha512-7q4Bk3+ePBdzrmMWxWBnNdN4kmBe2jJwa3vAofaMqZiIBEor85YcOsrUJvcWM/3+/TusgZr4p/4+oJgiYDrj5A=="
       }
     },
+    "npm:@angular-eslint/builder": {
+      "type": "npm",
+      "name": "npm:@angular-eslint/builder",
+      "data": {
+        "version": "17.2.1",
+        "packageName": "@angular-eslint/builder",
+        "hash": "sha512-O30eaR0wCPiP+zKWvXj2JM8hVq30Wok2rp7zJMFm3PurjF9nWIIyexXkE5fa538DYZYxu8N3gQRqhpv5jvTXCg=="
+      }
+    },
     "npm:@angular-eslint/bundled-angular-compiler": {
       "type": "npm",
       "name": "npm:@angular-eslint/bundled-angular-compiler",
@@ -117,6 +126,60 @@
         "hash": "sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw=="
       }
     },
+    "npm:@angular-eslint/template-parser": {
+      "type": "npm",
+      "name": "npm:@angular-eslint/template-parser",
+      "data": {
+        "version": "17.2.1",
+        "packageName": "@angular-eslint/template-parser",
+        "hash": "sha512-WPQYFvRju0tCDXQ/pwrzC911pE07JvpeDgcN2elhzV6lxDHJEZpA5O9pnW9qgNA6J6XM9Q7dBkJ22ztAzC4WFw=="
+      }
+    },
+    "npm:eslint-scope@8.0.0": {
+      "type": "npm",
+      "name": "npm:eslint-scope@8.0.0",
+      "data": {
+        "version": "8.0.0",
+        "packageName": "eslint-scope",
+        "hash": "sha512-zj3Byw6jX4TcFCJmxOzLt6iol5FAr9xQyZZSQjEzW2UiCJXLwXdRIKCYVFftnpZckaC9Ps9xlC7jB8tSeWWOaw=="
+      }
+    },
+    "npm:eslint-scope": {
+      "type": "npm",
+      "name": "npm:eslint-scope",
+      "data": {
+        "version": "5.1.1",
+        "packageName": "eslint-scope",
+        "hash": "sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw=="
+      }
+    },
+    "npm:eslint-scope@7.2.2": {
+      "type": "npm",
+      "name": "npm:eslint-scope@7.2.2",
+      "data": {
+        "version": "7.2.2",
+        "packageName": "eslint-scope",
+        "hash": "sha512-dOt21O7lTMhDM+X9mB4GX+DZrZtCUJPL/wlcTqxyrx5IvO0IYtILdtrQGQp+8n5S0gwSVmOf9NQrjMOgfQZlIg=="
+      }
+    },
+    "npm:estraverse@5.3.0": {
+      "type": "npm",
+      "name": "npm:estraverse@5.3.0",
+      "data": {
+        "version": "5.3.0",
+        "packageName": "estraverse",
+        "hash": "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA=="
+      }
+    },
+    "npm:estraverse": {
+      "type": "npm",
+      "name": "npm:estraverse",
+      "data": {
+        "version": "4.3.0",
+        "packageName": "estraverse",
+        "hash": "sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw=="
+      }
+    },
     "npm:@angular-eslint/utils": {
       "type": "npm",
       "name": "npm:@angular-eslint/utils",
@@ -133,6 +196,15 @@
         "version": "17.1.0",
         "packageName": "@angular/animations",
         "hash": "sha512-EzyJsla/CnRX4ARmHe9J1m3Pl+J4m5hznzeQFyZpJehikaHKAGGJTGM/+DFAX9TuR1ZpCmS0z0oWsYzag2Q7RA=="
+      }
+    },
+    "npm:@angular/cdk": {
+      "type": "npm",
+      "name": "npm:@angular/cdk",
+      "data": {
+        "version": "17.1.0",
+        "packageName": "@angular/cdk",
+        "hash": "sha512-a2+uqr1s2pCStFs78BM1ViVqi0GnxFHGKHo58hiR9pDV/pyg9cvy+d+rsci1HkuF9AC/UqV5Y6rGLfwayO183g=="
       }
     },
     "npm:@angular/cli": {
@@ -259,6 +331,15 @@
         "version": "17.1.0",
         "packageName": "@angular/forms",
         "hash": "sha512-JD9IAxa5gQnjzxYJXm3H+lBuyv/dCnPHl6fpvb/JGrxY6xi4gfndyI8AkAb/wOAQgZDsIPaq5s4eWDjhr7CpyA=="
+      }
+    },
+    "npm:@angular/material": {
+      "type": "npm",
+      "name": "npm:@angular/material",
+      "data": {
+        "version": "17.1.0",
+        "packageName": "@angular/material",
+        "hash": "sha512-PzHTXAHuap4K7fteQhpR5+BCLV3jSpT9mhaN9evDGYqXS6iMcEX/9RBR7jVqtW2/5pnDopUioBc7pf0JWWI4JA=="
       }
     },
     "npm:@angular/platform-browser": {
@@ -1296,6 +1377,42 @@
         "hash": "sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ=="
       }
     },
+    "npm:@csstools/css-parser-algorithms": {
+      "type": "npm",
+      "name": "npm:@csstools/css-parser-algorithms",
+      "data": {
+        "version": "2.5.0",
+        "packageName": "@csstools/css-parser-algorithms",
+        "hash": "sha512-abypo6m9re3clXA00eu5syw+oaPHbJTPapu9C4pzNsJ4hdZDzushT50Zhu+iIYXgEe1CxnRMn7ngsbV+MLrlpQ=="
+      }
+    },
+    "npm:@csstools/css-tokenizer": {
+      "type": "npm",
+      "name": "npm:@csstools/css-tokenizer",
+      "data": {
+        "version": "2.2.3",
+        "packageName": "@csstools/css-tokenizer",
+        "hash": "sha512-pp//EvZ9dUmGuGtG1p+n17gTHEOqu9jO+FiCUjNN3BDmyhdA2Jq9QsVeR7K8/2QCK17HSsioPlTW9ZkzoWb3Lg=="
+      }
+    },
+    "npm:@csstools/media-query-list-parser": {
+      "type": "npm",
+      "name": "npm:@csstools/media-query-list-parser",
+      "data": {
+        "version": "2.1.7",
+        "packageName": "@csstools/media-query-list-parser",
+        "hash": "sha512-lHPKJDkPUECsyAvD60joYfDmp8UERYxHGkFfyLJFTVK/ERJe0sVlIFLXU5XFxdjNDTerp5L4KeaKG+Z5S94qxQ=="
+      }
+    },
+    "npm:@csstools/selector-specificity": {
+      "type": "npm",
+      "name": "npm:@csstools/selector-specificity",
+      "data": {
+        "version": "3.0.1",
+        "packageName": "@csstools/selector-specificity",
+        "hash": "sha512-NPljRHkq4a14YzZ3YD406uaxh7s0g6eAq3L9aLOWywoqe8PkYamAvtsh7KNX6c++ihDrJ0RiU+/z7rGnhlZ5ww=="
+      }
+    },
     "npm:@discoveryjs/json-ext": {
       "type": "npm",
       "name": "npm:@discoveryjs/json-ext",
@@ -1933,6 +2050,456 @@
         "version": "2.3.11",
         "packageName": "@ljharb/through",
         "hash": "sha512-ccfcIDlogiXNq5KcbAwbaO7lMh3Tm1i3khMPYpxlK8hH/W53zN81KM9coerRLOnTGu3nfXIniAmQbRI9OxbC0w=="
+      }
+    },
+    "npm:@material/animation": {
+      "type": "npm",
+      "name": "npm:@material/animation",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/animation",
+        "hash": "sha512-1GSJaPKef+7HRuV+HusVZHps64cmZuOItDbt40tjJVaikcaZvwmHlcTxRIqzcRoCdt5ZKHh3NoO7GB9Khg4Jnw=="
+      }
+    },
+    "npm:@material/auto-init": {
+      "type": "npm",
+      "name": "npm:@material/auto-init",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/auto-init",
+        "hash": "sha512-t7ZGpRJ3ec0QDUO0nJu/SMgLW7qcuG2KqIsEYD1Ej8qhI2xpdR2ydSDQOkVEitXmKoGol1oq4nYSBjTlB65GqA=="
+      }
+    },
+    "npm:@material/banner": {
+      "type": "npm",
+      "name": "npm:@material/banner",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/banner",
+        "hash": "sha512-g9wBUZzYBizyBcBQXTIafnRUUPi7efU9gPJfzeGgkynXiccP/vh5XMmH+PBxl5v+4MlP/d4cZ2NUYoAN7UTqSA=="
+      }
+    },
+    "npm:@material/base": {
+      "type": "npm",
+      "name": "npm:@material/base",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/base",
+        "hash": "sha512-I9KQOKXpLfJkP8MqZyr8wZIzdPHrwPjFvGd9zSK91/vPyE4hzHRJc/0njsh9g8Lm9PRYLbifXX+719uTbHxx+A=="
+      }
+    },
+    "npm:@material/button": {
+      "type": "npm",
+      "name": "npm:@material/button",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/button",
+        "hash": "sha512-BHB7iyHgRVH+JF16+iscR+Qaic+p7LU1FOLgP8KucRlpF9tTwIxQA6mJwGRi5gUtcG+vyCmzVS+hIQ6DqT/7BA=="
+      }
+    },
+    "npm:@material/card": {
+      "type": "npm",
+      "name": "npm:@material/card",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/card",
+        "hash": "sha512-kt7y9/IWOtJTr3Z/AoWJT3ZLN7CLlzXhx2udCLP9ootZU2bfGK0lzNwmo80bv/pJfrY9ihQKCtuGTtNxUy+vIw=="
+      }
+    },
+    "npm:@material/checkbox": {
+      "type": "npm",
+      "name": "npm:@material/checkbox",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/checkbox",
+        "hash": "sha512-rURcrL5O1u6hzWR+dNgiQ/n89vk6tdmdP3mZgnxJx61q4I/k1yijKqNJSLrkXH7Rto3bM5NRKMOlgvMvVd7UMQ=="
+      }
+    },
+    "npm:@material/chips": {
+      "type": "npm",
+      "name": "npm:@material/chips",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/chips",
+        "hash": "sha512-AYAivV3GSk/T/nRIpH27sOHFPaSMrE3L0WYbnb5Wa93FgY8a0fbsFYtSH2QmtwnzXveg+B1zGTt7/xIIcynKdQ=="
+      }
+    },
+    "npm:@material/circular-progress": {
+      "type": "npm",
+      "name": "npm:@material/circular-progress",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/circular-progress",
+        "hash": "sha512-DJrqCKb+LuGtjNvKl8XigvyK02y36GRkfhMUYTcJEi3PrOE00bwXtyj7ilhzEVshQiXg6AHGWXtf5UqwNrx3Ow=="
+      }
+    },
+    "npm:@material/data-table": {
+      "type": "npm",
+      "name": "npm:@material/data-table",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/data-table",
+        "hash": "sha512-/2WZsuBIq9z9RWYF5Jo6b7P6u0fwit+29/mN7rmAZ6akqUR54nXyNfoSNiyydMkzPlZZsep5KrSHododDhBZbA=="
+      }
+    },
+    "npm:@material/density": {
+      "type": "npm",
+      "name": "npm:@material/density",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/density",
+        "hash": "sha512-o9EXmGKVpiQ6mHhyV3oDDzc78Ow3E7v8dlaOhgaDSXgmqaE8v5sIlLNa/LKSyUga83/fpGk3QViSGXotpQx0jA=="
+      }
+    },
+    "npm:@material/dialog": {
+      "type": "npm",
+      "name": "npm:@material/dialog",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/dialog",
+        "hash": "sha512-u0XpTlv1JqWC/bQ3DavJ1JguofTelLT2wloj59l3/1b60jv42JQ6Am7jU3I8/SIUB1MKaW7dYocXjDWtWJakLA=="
+      }
+    },
+    "npm:@material/dom": {
+      "type": "npm",
+      "name": "npm:@material/dom",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/dom",
+        "hash": "sha512-mQ1HT186GPQSkRg5S18i70typ5ZytfjL09R0gJ2Qg5/G+MLCGi7TAjZZSH65tuD/QGOjel4rDdWOTmYbPYV6HA=="
+      }
+    },
+    "npm:@material/drawer": {
+      "type": "npm",
+      "name": "npm:@material/drawer",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/drawer",
+        "hash": "sha512-qyO0W0KBftfH8dlLR0gVAgv7ZHNvU8ae11Ao6zJif/YxcvK4+gph1z8AO4H410YmC2kZiwpSKyxM1iQCCzbb4g=="
+      }
+    },
+    "npm:@material/elevation": {
+      "type": "npm",
+      "name": "npm:@material/elevation",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/elevation",
+        "hash": "sha512-tV6s4/pUBECedaI36Yj18KmRCk1vfue/JP/5yYRlFNnLMRVISePbZaKkn/BHXVf+26I3W879+XqIGlDVdmOoMA=="
+      }
+    },
+    "npm:@material/fab": {
+      "type": "npm",
+      "name": "npm:@material/fab",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/fab",
+        "hash": "sha512-4h76QrzfZTcPdd+awDPZ4Q0YdSqsXQnS540TPtyXUJ/5G99V6VwGpjMPIxAsW0y+pmI9UkLL/srrMaJec+7r4Q=="
+      }
+    },
+    "npm:@material/feature-targeting": {
+      "type": "npm",
+      "name": "npm:@material/feature-targeting",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/feature-targeting",
+        "hash": "sha512-SAjtxYh6YlKZriU83diDEQ7jNSP2MnxKsER0TvFeyG1vX/DWsUyYDOIJTOEa9K1N+fgJEBkNK8hY55QhQaspew=="
+      }
+    },
+    "npm:@material/floating-label": {
+      "type": "npm",
+      "name": "npm:@material/floating-label",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/floating-label",
+        "hash": "sha512-0KMo5ijjYaEHPiZ2pCVIcbaTS2LycvH9zEhEMKwPPGssBCX7iz5ffYQFk7e5yrQand1r3jnQQgYfHAwtykArnQ=="
+      }
+    },
+    "npm:@material/focus-ring": {
+      "type": "npm",
+      "name": "npm:@material/focus-ring",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/focus-ring",
+        "hash": "sha512-Jmg1nltq4J6S6A10EGMZnvufrvU3YTi+8R8ZD9lkSbun0Fm2TVdICQt/Auyi6An9zP66oQN6c31eqO6KfIPsDg=="
+      }
+    },
+    "npm:@material/form-field": {
+      "type": "npm",
+      "name": "npm:@material/form-field",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/form-field",
+        "hash": "sha512-fEPWgDQEPJ6WF7hNnIStxucHR9LE4DoDSMqCsGWS2Yu+NLZYLuCEecgR0UqQsl1EQdNRaFh8VH93KuxGd2hiPg=="
+      }
+    },
+    "npm:@material/icon-button": {
+      "type": "npm",
+      "name": "npm:@material/icon-button",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/icon-button",
+        "hash": "sha512-DcK7IL4ICY/DW+48YQZZs9g0U1kRaW0Wb0BxhvppDMYziHo/CTpFdle4gjyuTyRxPOdHQz5a97ru48Z9O4muTw=="
+      }
+    },
+    "npm:@material/image-list": {
+      "type": "npm",
+      "name": "npm:@material/image-list",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/image-list",
+        "hash": "sha512-voMjG2p80XbjL1B2lmF65zO5gEgJOVKClLdqh4wbYzYfwY/SR9c8eLvlYG7DLdFaFBl/7gGxD8TvvZ329HUFPw=="
+      }
+    },
+    "npm:@material/layout-grid": {
+      "type": "npm",
+      "name": "npm:@material/layout-grid",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/layout-grid",
+        "hash": "sha512-veDABLxMn2RmvfnUO2RUmC1OFfWr4cU+MrxKPoDD2hl3l3eDYv5fxws6r5T1JoSyXoaN+oEZpheS0+M9Ure8Pg=="
+      }
+    },
+    "npm:@material/line-ripple": {
+      "type": "npm",
+      "name": "npm:@material/line-ripple",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/line-ripple",
+        "hash": "sha512-f60hVJhIU6I3/17Tqqzch1emUKEcfVVgHVqADbU14JD+oEIz429ZX9ksZ3VChoU3+eejFl+jVdZMLE/LrAuwpg=="
+      }
+    },
+    "npm:@material/linear-progress": {
+      "type": "npm",
+      "name": "npm:@material/linear-progress",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/linear-progress",
+        "hash": "sha512-pRDEwPQielDiC9Sc5XhCXrGxP8wWOnAO8sQlMebfBYHYqy5hhiIzibezS8CSaW4MFQFyXmCmpmqWlbqGYRmiyg=="
+      }
+    },
+    "npm:@material/list": {
+      "type": "npm",
+      "name": "npm:@material/list",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/list",
+        "hash": "sha512-Is0NV91sJlXF5pOebYAtWLF4wU2MJDbYqztML/zQNENkQxDOvEXu3nWNb3YScMIYJJXvARO0Liur5K4yPagS1Q=="
+      }
+    },
+    "npm:@material/menu": {
+      "type": "npm",
+      "name": "npm:@material/menu",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/menu",
+        "hash": "sha512-D11QU1dXqLbh5X1zKlEhS3QWh0b5BPNXlafc5MXfkdJHhOiieb7LC9hMJhbrHtj24FadJ7evaFW/T2ugJbJNnQ=="
+      }
+    },
+    "npm:@material/menu-surface": {
+      "type": "npm",
+      "name": "npm:@material/menu-surface",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/menu-surface",
+        "hash": "sha512-7RZHvw0gbwppaAJ/Oh5SWmfAKJ62aw1IMB3+3MRwsb5PLoV666wInYa+zJfE4i7qBeOn904xqT2Nko5hY0ssrg=="
+      }
+    },
+    "npm:@material/notched-outline": {
+      "type": "npm",
+      "name": "npm:@material/notched-outline",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/notched-outline",
+        "hash": "sha512-Yg2usuKB2DKlKIBISbie9BFsOVuffF71xjbxPbybvqemxqUBd+bD5/t6H1fLE+F8/NCu5JMigho4ewUU+0RCiw=="
+      }
+    },
+    "npm:@material/progress-indicator": {
+      "type": "npm",
+      "name": "npm:@material/progress-indicator",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/progress-indicator",
+        "hash": "sha512-UPbDjE5CqT+SqTs0mNFG6uFEw7wBlgYmh+noSkQ6ty/EURm8lF125dmi4dv4kW0+octonMXqkGtAoZwLIHKf/w=="
+      }
+    },
+    "npm:@material/radio": {
+      "type": "npm",
+      "name": "npm:@material/radio",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/radio",
+        "hash": "sha512-wR1X0Sr0KmQLu6+YOFKAI84G3L6psqd7Kys5kfb8WKBM36zxO5HQXC5nJm/Y0rdn22ixzsIz2GBo0MNU4V4k1A=="
+      }
+    },
+    "npm:@material/ripple": {
+      "type": "npm",
+      "name": "npm:@material/ripple",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/ripple",
+        "hash": "sha512-JqOsWM1f4aGdotP0rh1vZlPZTg6lZgh39FIYHFMfOwfhR+LAikUJ+37ciqZuewgzXB6iiRO6a8aUH6HR5SJYPg=="
+      }
+    },
+    "npm:@material/rtl": {
+      "type": "npm",
+      "name": "npm:@material/rtl",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/rtl",
+        "hash": "sha512-UVf14qAtmPiaaZjuJtmN36HETyoKWmsZM/qn1L5ciR2URb8O035dFWnz4ZWFMmAYBno/L7JiZaCkPurv2ZNrGA=="
+      }
+    },
+    "npm:@material/segmented-button": {
+      "type": "npm",
+      "name": "npm:@material/segmented-button",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/segmented-button",
+        "hash": "sha512-LCnVRUSAhELTKI/9hSvyvIvQIpPpqF29BV+O9yM4WoNNmNWqTulvuiv7grHZl6Z+kJuxSg4BGbsPxxb9dXozPg=="
+      }
+    },
+    "npm:@material/select": {
+      "type": "npm",
+      "name": "npm:@material/select",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/select",
+        "hash": "sha512-WioZtQEXRpglum0cMSzSqocnhsGRr+ZIhvKb3FlaNrTaK8H3Y4QA7rVjv3emRtrLOOjaT6/RiIaUMTo9AGzWQQ=="
+      }
+    },
+    "npm:@material/shape": {
+      "type": "npm",
+      "name": "npm:@material/shape",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/shape",
+        "hash": "sha512-8z8l1W3+cymObunJoRhwFPKZ+FyECfJ4MJykNiaZq7XJFZkV6xNmqAVrrbQj93FtLsECn9g4PjjIomguVn/OEw=="
+      }
+    },
+    "npm:@material/slider": {
+      "type": "npm",
+      "name": "npm:@material/slider",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/slider",
+        "hash": "sha512-QU/WSaSWlLKQRqOhJrPgm29wqvvzRusMqwAcrCh1JTrCl+xwJ43q5WLDfjYhubeKtrEEgGu9tekkAiYfMG7EBw=="
+      }
+    },
+    "npm:@material/snackbar": {
+      "type": "npm",
+      "name": "npm:@material/snackbar",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/snackbar",
+        "hash": "sha512-sm7EbVKddaXpT/aXAYBdPoN0k8yeg9+dprgBUkrdqGzWJAeCkxb4fv2B3He88YiCtvkTz2KLY4CThPQBSEsMFQ=="
+      }
+    },
+    "npm:@material/switch": {
+      "type": "npm",
+      "name": "npm:@material/switch",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/switch",
+        "hash": "sha512-lEDJfRvkVyyeHWIBfoxYjJVl+WlEAE2kZ/+6OqB1FW0OV8ftTODZGhHRSzjVBA1/p4FPuhAtKtoK9jTpa4AZjA=="
+      }
+    },
+    "npm:@material/tab": {
+      "type": "npm",
+      "name": "npm:@material/tab",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/tab",
+        "hash": "sha512-E1xGACImyCLurhnizyOTCgOiVezce4HlBFAI6YhJo/AyVwjN2Dtas4ZLQMvvWWqpyhITNkeYdOchwCC1mrz3AQ=="
+      }
+    },
+    "npm:@material/tab-bar": {
+      "type": "npm",
+      "name": "npm:@material/tab-bar",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/tab-bar",
+        "hash": "sha512-p1Asb2NzrcECvAQU3b2SYrpyJGyJLQWR+nXTYzDKE8WOpLIRCXap2audNqD7fvN/A20UJ1J8U01ptrvCkwJ4eA=="
+      }
+    },
+    "npm:@material/tab-indicator": {
+      "type": "npm",
+      "name": "npm:@material/tab-indicator",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/tab-indicator",
+        "hash": "sha512-h9Td3MPqbs33spcPS7ecByRHraYgU4tNCZpZzZXw31RypjKvISDv/PS5wcA4RmWqNGih78T7xg4QIGsZg4Pk4w=="
+      }
+    },
+    "npm:@material/tab-scroller": {
+      "type": "npm",
+      "name": "npm:@material/tab-scroller",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/tab-scroller",
+        "hash": "sha512-LFeYNjQpdXecwECd8UaqHYbhscDCwhGln5Yh+3ctvcEgvmDPNjhKn/DL3sWprWvG8NAhP6sHMrsGhQFVdCWtTg=="
+      }
+    },
+    "npm:@material/textfield": {
+      "type": "npm",
+      "name": "npm:@material/textfield",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/textfield",
+        "hash": "sha512-AExmFvgE5nNF0UA4l2cSzPghtxSUQeeoyRjFLHLy+oAaE4eKZFrSy0zEpqPeWPQpEMDZk+6Y+6T3cOFYBeSvsw=="
+      }
+    },
+    "npm:@material/theme": {
+      "type": "npm",
+      "name": "npm:@material/theme",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/theme",
+        "hash": "sha512-hs45hJoE9yVnoVOcsN1jklyOa51U4lzWsEnQEuJTPOk2+0HqCQ0yv/q0InpSnm2i69fNSyZC60+8HADZGF8ugQ=="
+      }
+    },
+    "npm:@material/tokens": {
+      "type": "npm",
+      "name": "npm:@material/tokens",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/tokens",
+        "hash": "sha512-r9TDoicmcT7FhUXC4eYMFnt9TZsz0G8T3wXvkKncLppYvZ517gPyD/1+yhuGfGOxAzxTrM66S/oEc1fFE2q4hw=="
+      }
+    },
+    "npm:@material/tooltip": {
+      "type": "npm",
+      "name": "npm:@material/tooltip",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/tooltip",
+        "hash": "sha512-8qNk3pmPLTnam3XYC1sZuplQXW9xLn4Z4MI3D+U17Q7pfNZfoOugGr+d2cLA9yWAEjVJYB0mj8Yu86+udo4N9w=="
+      }
+    },
+    "npm:@material/top-app-bar": {
+      "type": "npm",
+      "name": "npm:@material/top-app-bar",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/top-app-bar",
+        "hash": "sha512-SARR5/ClYT4CLe9qAXakbr0i0cMY0V3V4pe3ElIJPfL2Z2c4wGR1mTR8m2LxU1MfGKK8aRoUdtfKaxWejp+eNA=="
+      }
+    },
+    "npm:@material/touch-target": {
+      "type": "npm",
+      "name": "npm:@material/touch-target",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/touch-target",
+        "hash": "sha512-BJo/wFKHPYLGsRaIpd7vsQwKr02LtO2e89Psv0on/p0OephlNIgeB9dD9W+bQmaeZsZ6liKSKRl6wJWDiK71PA=="
+      }
+    },
+    "npm:@material/typography": {
+      "type": "npm",
+      "name": "npm:@material/typography",
+      "data": {
+        "version": "15.0.0-canary.7f224ddd4.0",
+        "packageName": "@material/typography",
+        "hash": "sha512-kBaZeCGD50iq1DeRRH5OM5Jl7Gdk+/NOfKArkY4ksBZvJiStJ7ACAhpvb8MEGm4s3jvDInQFLsDq3hL+SA79sQ=="
       }
     },
     "npm:@ngtools/webpack": {
@@ -2763,6 +3330,24 @@
         "hash": "sha512-vmQSUcfalpIq0R9q7uTo2lXs6eGIpt9wtnLdMv9LVpIjCA/+ufZRozlVoVelIYixx1ugCBKDhn89vnsEGOCx9A=="
       }
     },
+    "npm:@typescript-eslint/eslint-plugin": {
+      "type": "npm",
+      "name": "npm:@typescript-eslint/eslint-plugin",
+      "data": {
+        "version": "6.19.0",
+        "packageName": "@typescript-eslint/eslint-plugin",
+        "hash": "sha512-DUCUkQNklCQYnrBSSikjVChdc84/vMPDQSgJTHBZ64G9bA9w0Crc0rd2diujKbTdp6w2J47qkeHQLoi0rpLCdg=="
+      }
+    },
+    "npm:@typescript-eslint/parser": {
+      "type": "npm",
+      "name": "npm:@typescript-eslint/parser",
+      "data": {
+        "version": "6.19.0",
+        "packageName": "@typescript-eslint/parser",
+        "hash": "sha512-1DyBLG5SH7PYCd00QlroiW60YJ4rWMuUGa/JBV0iZuqi4l4IK3twKPq5ZkEebmGqRjXWVgsUzfd3+nZveewgow=="
+      }
+    },
     "npm:@typescript-eslint/scope-manager": {
       "type": "npm",
       "name": "npm:@typescript-eslint/scope-manager",
@@ -3249,6 +3834,15 @@
         "hash": "sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw=="
       }
     },
+    "npm:astral-regex": {
+      "type": "npm",
+      "name": "npm:astral-regex",
+      "data": {
+        "version": "2.0.0",
+        "packageName": "astral-regex",
+        "hash": "sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ=="
+      }
+    },
     "npm:async": {
       "type": "npm",
       "name": "npm:async",
@@ -3346,6 +3940,15 @@
         "version": "1.0.2",
         "packageName": "balanced-match",
         "hash": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="
+      }
+    },
+    "npm:balanced-match@2.0.0": {
+      "type": "npm",
+      "name": "npm:balanced-match@2.0.0",
+      "data": {
+        "version": "2.0.0",
+        "packageName": "balanced-match",
+        "hash": "sha512-1ugUSr8BHXRnK23KfuYS+gVMC3LB8QGH9W1iGtDPsNWoQbgtXSExkBu2aDR4epiGWZOjZsj6lDl/N/AqqTC3UA=="
       }
     },
     "npm:base64-js": {
@@ -3789,6 +4392,15 @@
         "hash": "sha512-neHB9xuzh/wk0dIHweyAXv2aPGZIVk3pLMe+/RNzINf17fe0OG96QroktYAUm7SM1PBnzTabaLboqqxDyMU+SQ=="
       }
     },
+    "npm:colord": {
+      "type": "npm",
+      "name": "npm:colord",
+      "data": {
+        "version": "2.9.3",
+        "packageName": "colord",
+        "hash": "sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw=="
+      }
+    },
     "npm:colorette": {
       "type": "npm",
       "name": "npm:colorette",
@@ -4059,6 +4671,15 @@
         "hash": "sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA=="
       }
     },
+    "npm:cosmiconfig@9.0.0": {
+      "type": "npm",
+      "name": "npm:cosmiconfig@9.0.0",
+      "data": {
+        "version": "9.0.0",
+        "packageName": "cosmiconfig",
+        "hash": "sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg=="
+      }
+    },
     "npm:critters": {
       "type": "npm",
       "name": "npm:critters",
@@ -4122,6 +4743,15 @@
         "hash": "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
       }
     },
+    "npm:css-functions-list": {
+      "type": "npm",
+      "name": "npm:css-functions-list",
+      "data": {
+        "version": "3.2.1",
+        "packageName": "css-functions-list",
+        "hash": "sha512-Nj5YcaGgBtuUmn1D7oHqPW0c9iui7xsTsj5lIX8ZgevdfhmjFfKB3r8moHJtNJnctnYXJyYX5I1pp90HM4TPgQ=="
+      }
+    },
     "npm:css-loader": {
       "type": "npm",
       "name": "npm:css-loader",
@@ -4138,6 +4768,15 @@
         "version": "5.1.0",
         "packageName": "css-select",
         "hash": "sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg=="
+      }
+    },
+    "npm:css-tree": {
+      "type": "npm",
+      "name": "npm:css-tree",
+      "data": {
+        "version": "2.3.1",
+        "packageName": "css-tree",
+        "hash": "sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw=="
       }
     },
     "npm:css-what": {
@@ -4653,24 +5292,6 @@
         "hash": "sha512-Go19xM6T9puCOWntie1/P997aXxFsOi37JIHRWI514Hc6ZnaHGKY9xFhrU65RT6CcBEzZoGG1e6Nq+DT04ZtZQ=="
       }
     },
-    "npm:eslint-scope": {
-      "type": "npm",
-      "name": "npm:eslint-scope",
-      "data": {
-        "version": "5.1.1",
-        "packageName": "eslint-scope",
-        "hash": "sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw=="
-      }
-    },
-    "npm:eslint-scope@7.2.2": {
-      "type": "npm",
-      "name": "npm:eslint-scope@7.2.2",
-      "data": {
-        "version": "7.2.2",
-        "packageName": "eslint-scope",
-        "hash": "sha512-dOt21O7lTMhDM+X9mB4GX+DZrZtCUJPL/wlcTqxyrx5IvO0IYtILdtrQGQp+8n5S0gwSVmOf9NQrjMOgfQZlIg=="
-      }
-    },
     "npm:eslint-visitor-keys": {
       "type": "npm",
       "name": "npm:eslint-visitor-keys",
@@ -4678,24 +5299,6 @@
         "version": "3.4.3",
         "packageName": "eslint-visitor-keys",
         "hash": "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag=="
-      }
-    },
-    "npm:estraverse@5.3.0": {
-      "type": "npm",
-      "name": "npm:estraverse@5.3.0",
-      "data": {
-        "version": "5.3.0",
-        "packageName": "estraverse",
-        "hash": "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA=="
-      }
-    },
-    "npm:estraverse": {
-      "type": "npm",
-      "name": "npm:estraverse",
-      "data": {
-        "version": "4.3.0",
-        "packageName": "estraverse",
-        "hash": "sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw=="
       }
     },
     "npm:find-up@5.0.0": {
@@ -4977,6 +5580,15 @@
         "hash": "sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw=="
       }
     },
+    "npm:fastest-levenshtein": {
+      "type": "npm",
+      "name": "npm:fastest-levenshtein",
+      "data": {
+        "version": "1.0.16",
+        "packageName": "fastest-levenshtein",
+        "hash": "sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg=="
+      }
+    },
     "npm:fastq": {
       "type": "npm",
       "name": "npm:fastq",
@@ -5022,6 +5634,15 @@
         "hash": "sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg=="
       }
     },
+    "npm:file-entry-cache@8.0.0": {
+      "type": "npm",
+      "name": "npm:file-entry-cache@8.0.0",
+      "data": {
+        "version": "8.0.0",
+        "packageName": "file-entry-cache",
+        "hash": "sha512-XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ=="
+      }
+    },
     "npm:filelist": {
       "type": "npm",
       "name": "npm:filelist",
@@ -5065,6 +5686,15 @@
         "version": "3.2.0",
         "packageName": "flat-cache",
         "hash": "sha512-CYcENa+FtcUKLmhhqyctpclsq7QF38pKjZHsGNiSQF5r4FtoKDWabFDl3hzaEQMvT1LHEysw5twgLvpYYb4vbw=="
+      }
+    },
+    "npm:flat-cache@4.0.0": {
+      "type": "npm",
+      "name": "npm:flat-cache@4.0.0",
+      "data": {
+        "version": "4.0.0",
+        "packageName": "flat-cache",
+        "hash": "sha512-EryKbCE/wxpxKniQlyas6PY1I9vwtF3uCBweX+N8KYTCn3Y12RTGtQAJ/bd5pl7kxUAc8v/R3Ake/N17OZiFqA=="
       }
     },
     "npm:flatted": {
@@ -5283,6 +5913,51 @@
         "hash": "sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw=="
       }
     },
+    "npm:global-modules": {
+      "type": "npm",
+      "name": "npm:global-modules",
+      "data": {
+        "version": "2.0.0",
+        "packageName": "global-modules",
+        "hash": "sha512-NGbfmJBp9x8IxyJSd1P+otYK8vonoJactOogrVfFRIAEY1ukil8RSKDz2Yo7wh1oihl51l/r6W4epkeKJHqL8A=="
+      }
+    },
+    "npm:global-prefix": {
+      "type": "npm",
+      "name": "npm:global-prefix",
+      "data": {
+        "version": "3.0.0",
+        "packageName": "global-prefix",
+        "hash": "sha512-awConJSVCHVGND6x3tmMaKcQvwXLhjdkmomy2W+Goaui8YPgYgXJZewhg3fWC+DlfqqQuWg8AwqjGTD2nAPVWg=="
+      }
+    },
+    "npm:ini@1.3.8": {
+      "type": "npm",
+      "name": "npm:ini@1.3.8",
+      "data": {
+        "version": "1.3.8",
+        "packageName": "ini",
+        "hash": "sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew=="
+      }
+    },
+    "npm:ini": {
+      "type": "npm",
+      "name": "npm:ini",
+      "data": {
+        "version": "4.1.1",
+        "packageName": "ini",
+        "hash": "sha512-QQnnxNyfvmHFIsj7gkPcYymR8Jdw/o7mp5ZFihxn6h8Ci6fh3Dx4E1gPjpQEpIuPo9XVNY/ZUwh4BPMjGyL01g=="
+      }
+    },
+    "npm:globjoin": {
+      "type": "npm",
+      "name": "npm:globjoin",
+      "data": {
+        "version": "0.1.4",
+        "packageName": "globjoin",
+        "hash": "sha512-xYfnw62CKG8nLkZBfWbhWwDw02CHty86jfPcc2cr3ZfeuK9ysoVPPEUxf21bAD/rWAgk52SuBrLJlefNy8mvFg=="
+      }
+    },
     "npm:gopd": {
       "type": "npm",
       "name": "npm:gopd",
@@ -5443,6 +6118,15 @@
         "version": "2.0.2",
         "packageName": "html-escaper",
         "hash": "sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg=="
+      }
+    },
+    "npm:html-tags": {
+      "type": "npm",
+      "name": "npm:html-tags",
+      "data": {
+        "version": "3.3.1",
+        "packageName": "html-tags",
+        "hash": "sha512-ztqyC3kLto0e9WbNp0aeP+M3kTt+nbaIveGmUxAtZa+8iFgKLUOD4YKM5j+f3QD89bra7UeumolZHKuOXnTmeQ=="
       }
     },
     "npm:htmlparser2": {
@@ -5670,15 +6354,6 @@
         "hash": "sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw=="
       }
     },
-    "npm:ini": {
-      "type": "npm",
-      "name": "npm:ini",
-      "data": {
-        "version": "4.1.1",
-        "packageName": "ini",
-        "hash": "sha512-QQnnxNyfvmHFIsj7gkPcYymR8Jdw/o7mp5ZFihxn6h8Ci6fh3Dx4E1gPjpQEpIuPo9XVNY/ZUwh4BPMjGyL01g=="
-      }
-    },
     "npm:inquirer": {
       "type": "npm",
       "name": "npm:inquirer",
@@ -5830,6 +6505,15 @@
         "version": "2.0.4",
         "packageName": "is-plain-object",
         "hash": "sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og=="
+      }
+    },
+    "npm:is-plain-object@5.0.0": {
+      "type": "npm",
+      "name": "npm:is-plain-object@5.0.0",
+      "data": {
+        "version": "5.0.0",
+        "packageName": "is-plain-object",
+        "hash": "sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q=="
       }
     },
     "npm:is-stream": {
@@ -6264,6 +6948,15 @@
         "hash": "sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA=="
       }
     },
+    "npm:known-css-properties": {
+      "type": "npm",
+      "name": "npm:known-css-properties",
+      "data": {
+        "version": "0.29.0",
+        "packageName": "known-css-properties",
+        "hash": "sha512-Ne7wqW7/9Cz54PDt4I3tcV+hAyat8ypyOGzYRJQfdxnnjeWsTxt1cy8pjvvKeI5kfXuyvULyeeAvwvvtAX3ayQ=="
+      }
+    },
     "npm:launch-editor": {
       "type": "npm",
       "name": "npm:launch-editor",
@@ -6399,6 +7092,15 @@
         "hash": "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ=="
       }
     },
+    "npm:lodash.truncate": {
+      "type": "npm",
+      "name": "npm:lodash.truncate",
+      "data": {
+        "version": "4.4.2",
+        "packageName": "lodash.truncate",
+        "hash": "sha512-jttmRe7bRse52OsWIMDLaXxWqRAmtIUccAQ3garviCqJjafXOfNMO0yMfNpdD6zbGaTU0P5Nz7e7gAT6cKmJRw=="
+      }
+    },
     "npm:log-symbols": {
       "type": "npm",
       "name": "npm:log-symbols",
@@ -6435,6 +7137,24 @@
         "hash": "sha512-7ThobcL8brtGo9CavByQrQi+23aIfgYU++wg4B87AIS8Rb2ZBt/MEaDqzA00Xwv/jUjAjYkLHjVolYuTLKda2A=="
       }
     },
+    "npm:mathml-tag-names": {
+      "type": "npm",
+      "name": "npm:mathml-tag-names",
+      "data": {
+        "version": "2.1.3",
+        "packageName": "mathml-tag-names",
+        "hash": "sha512-APMBEanjybaPzUrfqU0IMU5I0AswKMH7k8OTLs0vvV4KZpExkTkY87nR/zpbuTPj+gARop7aGUbl11pnDfW6xg=="
+      }
+    },
+    "npm:mdn-data": {
+      "type": "npm",
+      "name": "npm:mdn-data",
+      "data": {
+        "version": "2.0.30",
+        "packageName": "mdn-data",
+        "hash": "sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA=="
+      }
+    },
     "npm:media-typer": {
       "type": "npm",
       "name": "npm:media-typer",
@@ -6451,6 +7171,15 @@
         "version": "3.5.3",
         "packageName": "memfs",
         "hash": "sha512-UERzLsxzllchadvbPs5aolHh65ISpKpM+ccLbOJ8/vvpBKmAWf+la7dXFy7Mr0ySHbdHrFv5kGFCUHHe6GFEmw=="
+      }
+    },
+    "npm:meow": {
+      "type": "npm",
+      "name": "npm:meow",
+      "data": {
+        "version": "13.1.0",
+        "packageName": "meow",
+        "hash": "sha512-o5R/R3Tzxq0PJ3v3qcQJtSvSE9nKOLSAaDuuoMzDVuGTwHdccMWcYomh9Xolng2tjT6O/Y83d+0coVGof6tqmA=="
       }
     },
     "npm:merge-descriptors": {
@@ -7281,6 +8010,15 @@
         "hash": "sha512-iW5WTTBSC5BfsBJ9daFMPVrLT36MrNiC6fqOZTTaHjBNX6Pfd5p+hSBqe/fEeNd7pc13QiAyGt7VdGMw4eRC4A=="
       }
     },
+    "npm:postcss-media-query-parser": {
+      "type": "npm",
+      "name": "npm:postcss-media-query-parser",
+      "data": {
+        "version": "0.2.3",
+        "packageName": "postcss-media-query-parser",
+        "hash": "sha512-3sOlxmbKcSHMjlUXQZKQ06jOswE7oVkXPxmZdoB1r5l0q6gTFTQSHxNxOrCccElbW7dxNytifNEo8qidX2Vsig=="
+      }
+    },
     "npm:postcss-modules-extract-imports": {
       "type": "npm",
       "name": "npm:postcss-modules-extract-imports",
@@ -7315,6 +8053,33 @@
         "version": "4.0.0",
         "packageName": "postcss-modules-values",
         "hash": "sha512-RDxHkAiEGI78gS2ofyvCsu7iycRv7oqw5xMWn9iMoR0N/7mf9D50ecQqUo5BZ9Zh2vH4bCUR/ktCqbB9m8vJjQ=="
+      }
+    },
+    "npm:postcss-resolve-nested-selector": {
+      "type": "npm",
+      "name": "npm:postcss-resolve-nested-selector",
+      "data": {
+        "version": "0.1.1",
+        "packageName": "postcss-resolve-nested-selector",
+        "hash": "sha512-HvExULSwLqHLgUy1rl3ANIqCsvMS0WHss2UOsXhXnQaZ9VCc2oBvIpXrl00IUFT5ZDITME0o6oiXeiHr2SAIfw=="
+      }
+    },
+    "npm:postcss-safe-parser": {
+      "type": "npm",
+      "name": "npm:postcss-safe-parser",
+      "data": {
+        "version": "7.0.0",
+        "packageName": "postcss-safe-parser",
+        "hash": "sha512-ovehqRNVCpuFzbXoTb4qLtyzK3xn3t/CUBxOs8LsnQjQrShaB4lKiHoVqY8ANaC0hBMHq5QVWk77rwGklFUDrg=="
+      }
+    },
+    "npm:postcss-scss": {
+      "type": "npm",
+      "name": "npm:postcss-scss",
+      "data": {
+        "version": "4.0.9",
+        "packageName": "postcss-scss",
+        "hash": "sha512-AjKOeiwAitL/MXxQW2DliT28EKukvvbEWx3LBmJIRN8KfBGZbRTxNYW0kSqi1COiTZ57nZ9NW06S6ux//N1c9A=="
       }
     },
     "npm:postcss-selector-parser": {
@@ -7686,6 +8451,15 @@
         "hash": "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA=="
       }
     },
+    "npm:rimraf@5.0.5": {
+      "type": "npm",
+      "name": "npm:rimraf@5.0.5",
+      "data": {
+        "version": "5.0.5",
+        "packageName": "rimraf",
+        "hash": "sha512-CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A=="
+      }
+    },
     "npm:rollup": {
       "type": "npm",
       "name": "npm:rollup",
@@ -7729,6 +8503,15 @@
         "version": "2.1.2",
         "packageName": "safer-buffer",
         "hash": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
+      }
+    },
+    "npm:safevalues": {
+      "type": "npm",
+      "name": "npm:safevalues",
+      "data": {
+        "version": "0.3.4",
+        "packageName": "safevalues",
+        "hash": "sha512-LRneZZRXNgjzwG4bDQdOTSbze3fHm1EAKN/8bePxnlEZiBmkYEDggaHbuvHI9/hoqHbGfsEA7tWS9GhYHZBBsw=="
       }
     },
     "npm:sass": {
@@ -7909,6 +8692,15 @@
         "version": "2.2.0",
         "packageName": "sigstore",
         "hash": "sha512-fcU9clHwEss2/M/11FFM8Jwc4PjBgbhXoNskoK5guoK0qGQBSeUbQZRJ+B2fDFIvhyf0gqCaPrel9mszbhAxug=="
+      }
+    },
+    "npm:slice-ansi": {
+      "type": "npm",
+      "name": "npm:slice-ansi",
+      "data": {
+        "version": "4.0.0",
+        "packageName": "slice-ansi",
+        "hash": "sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHOg7K73mtTWJRb8pyP3fzf4Ixd5SzdEJQ6MRUg/WBnOLxghZtKKurENQ=="
       }
     },
     "npm:smart-buffer": {
@@ -8136,6 +8928,42 @@
         "hash": "sha512-B3Hgul+z0L9a236FAUC9iZsL+nVHgoCJnqCbN588DjYxvGXaXaaFbfmQ/JhvKjZwsOukuR72XbHv71Qkug0HxA=="
       }
     },
+    "npm:stylelint": {
+      "type": "npm",
+      "name": "npm:stylelint",
+      "data": {
+        "version": "16.2.0",
+        "packageName": "stylelint",
+        "hash": "sha512-gwqU5AkIb52wrAzzn+359S3NIJDMl02TXLUaV2tzA/L6jUdpTwNt+MCxHlc8+Hb2bUHlYVo92YeSIryF2gJthA=="
+      }
+    },
+    "npm:stylelint-config-sass-guidelines": {
+      "type": "npm",
+      "name": "npm:stylelint-config-sass-guidelines",
+      "data": {
+        "version": "11.0.0",
+        "packageName": "stylelint-config-sass-guidelines",
+        "hash": "sha512-ZFaIDq8Qd6SO1p7Cmg+TM7E2B8t3vDZgEIX+dribR2y+H3bJJ8Oh0poFJGSOIAVdbg6FiI7xQf//8riBZVhIhg=="
+      }
+    },
+    "npm:stylelint-scss": {
+      "type": "npm",
+      "name": "npm:stylelint-scss",
+      "data": {
+        "version": "6.1.0",
+        "packageName": "stylelint-scss",
+        "hash": "sha512-kCfK8TQzthGwb4vaZniZgxRsVbCM4ZckmT1b/H5m4FU3I8Dz0id9llKsy1NMp3XXqC8+OPD4rVKtUbSxXlJb5g=="
+      }
+    },
+    "npm:supports-hyperlinks": {
+      "type": "npm",
+      "name": "npm:supports-hyperlinks",
+      "data": {
+        "version": "3.0.0",
+        "packageName": "supports-hyperlinks",
+        "hash": "sha512-QBDPHyPQDRTy9ku4URNGY5Lah8PAaXs6tAAwp55sL5WCsSW7GIfdf6W5ixfziW+t7wh3GVvHyHHyQ1ESsoRvaA=="
+      }
+    },
     "npm:supports-preserve-symlinks-flag": {
       "type": "npm",
       "name": "npm:supports-preserve-symlinks-flag",
@@ -8145,6 +8973,15 @@
         "hash": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="
       }
     },
+    "npm:svg-tags": {
+      "type": "npm",
+      "name": "npm:svg-tags",
+      "data": {
+        "version": "1.0.0",
+        "packageName": "svg-tags",
+        "hash": "sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA=="
+      }
+    },
     "npm:symbol-observable": {
       "type": "npm",
       "name": "npm:symbol-observable",
@@ -8152,6 +8989,15 @@
         "version": "4.0.0",
         "packageName": "symbol-observable",
         "hash": "sha512-b19dMThMV4HVFynSAM1++gBHAbk2Tc/osgLIBZMKsyqh34jb2e8Os7T6ZW/Bt3pJFdBTd2JwAnAAEQV7rSNvcQ=="
+      }
+    },
+    "npm:table": {
+      "type": "npm",
+      "name": "npm:table",
+      "data": {
+        "version": "6.8.1",
+        "packageName": "table",
+        "hash": "sha512-Y4X9zqrCftUhMeH2EptSSERdVKt/nEdijTOacGD/97EKjhQ/Qs8RTlEGABSJNNN8lac9kheH+af7yAkEWlgneA=="
       }
     },
     "npm:tapable": {
@@ -8676,6 +9522,15 @@
         "hash": "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ=="
       }
     },
+    "npm:write-file-atomic": {
+      "type": "npm",
+      "name": "npm:write-file-atomic",
+      "data": {
+        "version": "5.0.1",
+        "packageName": "write-file-atomic",
+        "hash": "sha512-+QU2zd6OTD8XWIJCbffaiQeH9U73qIqafo1x6V1snCWYGJf6cVE0cDR4D8xRzcEnfI21IFrUPzPGtcPf8AC+Rw=="
+      }
+    },
     "npm:xhr2": {
       "type": "npm",
       "name": "npm:xhr2",
@@ -9151,6 +10006,26 @@
       "type": "static"
     },
     {
+      "source": "npm:@angular-eslint/builder",
+      "target": "npm:eslint",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular-eslint/builder",
+      "target": "npm:typescript",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular-eslint/builder",
+      "target": "npm:@nx/devkit",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular-eslint/builder",
+      "target": "npm:nx",
+      "type": "static"
+    },
+    {
       "source": "npm:@angular-eslint/eslint-plugin",
       "target": "npm:eslint",
       "type": "static"
@@ -9256,6 +10131,36 @@
       "type": "static"
     },
     {
+      "source": "npm:@angular-eslint/template-parser",
+      "target": "npm:eslint",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular-eslint/template-parser",
+      "target": "npm:typescript",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular-eslint/template-parser",
+      "target": "npm:@angular-eslint/bundled-angular-compiler",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular-eslint/template-parser",
+      "target": "npm:eslint-scope@8.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:eslint-scope@8.0.0",
+      "target": "npm:esrecurse",
+      "type": "static"
+    },
+    {
+      "source": "npm:eslint-scope@8.0.0",
+      "target": "npm:estraverse@5.3.0",
+      "type": "static"
+    },
+    {
       "source": "npm:@angular-eslint/utils",
       "target": "npm:eslint",
       "type": "static"
@@ -9283,6 +10188,31 @@
     {
       "source": "npm:@angular/animations",
       "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/cdk",
+      "target": "npm:@angular/common",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/cdk",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/cdk",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/cdk",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/cdk",
+      "target": "npm:parse5",
       "type": "static"
     },
     {
@@ -9562,6 +10492,281 @@
     },
     {
       "source": "npm:@angular/forms",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@angular/animations",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@angular/cdk",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@angular/common",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@angular/forms",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@angular/platform-browser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/auto-init",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/banner",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/card",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/checkbox",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/chips",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/circular-progress",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/data-table",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/dialog",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/drawer",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/fab",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/floating-label",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/form-field",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/icon-button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/image-list",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/layout-grid",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/line-ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/linear-progress",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/list",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/menu",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/menu-surface",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/notched-outline",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/radio",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/segmented-button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/select",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/slider",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/snackbar",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/switch",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/tab",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/tab-bar",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/tab-indicator",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/tab-scroller",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/textfield",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/tooltip",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/top-app-bar",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/material",
       "target": "npm:tslib",
       "type": "static"
     },
@@ -11611,6 +12816,26 @@
       "type": "static"
     },
     {
+      "source": "npm:@csstools/css-parser-algorithms",
+      "target": "npm:@csstools/css-tokenizer",
+      "type": "static"
+    },
+    {
+      "source": "npm:@csstools/media-query-list-parser",
+      "target": "npm:@csstools/css-parser-algorithms",
+      "type": "static"
+    },
+    {
+      "source": "npm:@csstools/media-query-list-parser",
+      "target": "npm:@csstools/css-tokenizer",
+      "type": "static"
+    },
+    {
+      "source": "npm:@csstools/selector-specificity",
+      "target": "npm:postcss-selector-parser",
+      "type": "static"
+    },
+    {
       "source": "npm:@eslint-community/eslint-utils",
       "target": "npm:eslint",
       "type": "static"
@@ -11828,6 +13053,2016 @@
     {
       "source": "npm:@ljharb/through",
       "target": "npm:call-bind",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/animation",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/auto-init",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/auto-init",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/banner",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/base",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/focus-ring",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/button",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/card",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/focus-ring",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/checkbox",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/checkbox",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/focus-ring",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:safevalues",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/chips",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/circular-progress",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/circular-progress",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/circular-progress",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/circular-progress",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/circular-progress",
+      "target": "npm:@material/progress-indicator",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/circular-progress",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/circular-progress",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/circular-progress",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/checkbox",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/icon-button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/linear-progress",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/list",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/menu",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/select",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/data-table",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/density",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/icon-button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dialog",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dom",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dom",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/dom",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/list",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/drawer",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/elevation",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/elevation",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/elevation",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/elevation",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/elevation",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/elevation",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/focus-ring",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/fab",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/feature-targeting",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/floating-label",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/floating-label",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/floating-label",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/floating-label",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/floating-label",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/floating-label",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/floating-label",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/floating-label",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/focus-ring",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/focus-ring",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/focus-ring",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/form-field",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/form-field",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/form-field",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/form-field",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/form-field",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/form-field",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/form-field",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/focus-ring",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/icon-button",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/image-list",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/image-list",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/image-list",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/image-list",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/image-list",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/layout-grid",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/line-ripple",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/line-ripple",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/line-ripple",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/line-ripple",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/line-ripple",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/linear-progress",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/linear-progress",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/linear-progress",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/linear-progress",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/linear-progress",
+      "target": "npm:@material/progress-indicator",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/linear-progress",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/linear-progress",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/linear-progress",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/list",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/list",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/menu-surface",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu-surface",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu-surface",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu-surface",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu-surface",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu-surface",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu-surface",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu-surface",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/menu-surface",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/notched-outline",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/notched-outline",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/notched-outline",
+      "target": "npm:@material/floating-label",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/notched-outline",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/notched-outline",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/notched-outline",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/notched-outline",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/progress-indicator",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/focus-ring",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/radio",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/ripple",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/ripple",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/ripple",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/ripple",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/ripple",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/ripple",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/ripple",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/rtl",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/rtl",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/segmented-button",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/segmented-button",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/segmented-button",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/segmented-button",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/segmented-button",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/segmented-button",
+      "target": "npm:@material/touch-target",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/segmented-button",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/segmented-button",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/floating-label",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/line-ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/list",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/menu",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/menu-surface",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/notched-outline",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/select",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/shape",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/shape",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/shape",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/shape",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/slider",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/icon-button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/snackbar",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/focus-ring",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:safevalues",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/switch",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/focus-ring",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/tab-indicator",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/tab",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/tab-indicator",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/tab-scroller",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-bar",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-indicator",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-indicator",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-indicator",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-indicator",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-indicator",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-scroller",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-scroller",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-scroller",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-scroller",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-scroller",
+      "target": "npm:@material/tab",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tab-scroller",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/density",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/floating-label",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/line-ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/notched-outline",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/textfield",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/theme",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/theme",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tokens",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/button",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/dom",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/tokens",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:safevalues",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/tooltip",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:@material/animation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:@material/elevation",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:@material/ripple",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:@material/shape",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:@material/typography",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/top-app-bar",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/touch-target",
+      "target": "npm:@material/base",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/touch-target",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/touch-target",
+      "target": "npm:@material/rtl",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/touch-target",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/touch-target",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/typography",
+      "target": "npm:@material/feature-targeting",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/typography",
+      "target": "npm:@material/theme",
+      "type": "static"
+    },
+    {
+      "source": "npm:@material/typography",
+      "target": "npm:tslib",
       "type": "static"
     },
     {
@@ -12293,6 +15528,101 @@
     {
       "source": "npm:@types/ws",
       "target": "npm:@types/node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:@typescript-eslint/parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:eslint",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:@eslint-community/regexpp",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:@typescript-eslint/scope-manager",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:@typescript-eslint/type-utils",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:@typescript-eslint/utils",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:@typescript-eslint/visitor-keys",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:debug",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:graphemer",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:ignore",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:natural-compare",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:semver",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/eslint-plugin",
+      "target": "npm:ts-api-utils",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/parser",
+      "target": "npm:eslint",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/parser",
+      "target": "npm:@typescript-eslint/scope-manager",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/parser",
+      "target": "npm:@typescript-eslint/types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/parser",
+      "target": "npm:@typescript-eslint/typescript-estree",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/parser",
+      "target": "npm:@typescript-eslint/visitor-keys",
+      "type": "static"
+    },
+    {
+      "source": "npm:@typescript-eslint/parser",
+      "target": "npm:debug",
       "type": "static"
     },
     {
@@ -13696,6 +17026,16 @@
       "type": "static"
     },
     {
+      "source": "npm:css-tree",
+      "target": "npm:mdn-data",
+      "type": "static"
+    },
+    {
+      "source": "npm:css-tree",
+      "target": "npm:source-map-js",
+      "type": "static"
+    },
+    {
       "source": "npm:debug",
       "target": "npm:ms",
       "type": "static"
@@ -14788,6 +18128,26 @@
     {
       "source": "npm:glob-parent",
       "target": "npm:is-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:global-modules",
+      "target": "npm:global-prefix",
+      "type": "static"
+    },
+    {
+      "source": "npm:global-prefix",
+      "target": "npm:ini@1.3.8",
+      "type": "static"
+    },
+    {
+      "source": "npm:global-prefix",
+      "target": "npm:kind-of",
+      "type": "static"
+    },
+    {
+      "source": "npm:global-prefix",
+      "target": "npm:which",
       "type": "static"
     },
     {
@@ -17016,6 +20376,16 @@
       "type": "static"
     },
     {
+      "source": "npm:postcss-safe-parser",
+      "target": "npm:postcss",
+      "type": "static"
+    },
+    {
+      "source": "npm:postcss-scss",
+      "target": "npm:postcss",
+      "type": "static"
+    },
+    {
       "source": "npm:postcss-selector-parser",
       "target": "npm:cssesc",
       "type": "static"
@@ -17681,6 +21051,31 @@
       "type": "static"
     },
     {
+      "source": "npm:slice-ansi",
+      "target": "npm:ansi-styles@4.3.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:slice-ansi",
+      "target": "npm:astral-regex",
+      "type": "static"
+    },
+    {
+      "source": "npm:slice-ansi",
+      "target": "npm:is-fullwidth-code-point",
+      "type": "static"
+    },
+    {
+      "source": "npm:ansi-styles@4.3.0",
+      "target": "npm:color-convert@2.0.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:color-convert@2.0.1",
+      "target": "npm:color-name@1.1.4",
+      "type": "static"
+    },
+    {
       "source": "npm:socket.io",
       "target": "npm:accepts",
       "type": "static"
@@ -17956,8 +21351,413 @@
       "type": "static"
     },
     {
+      "source": "npm:stylelint",
+      "target": "npm:@csstools/css-parser-algorithms",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:@csstools/css-tokenizer",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:@csstools/media-query-list-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:@csstools/selector-specificity",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:balanced-match@2.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:colord",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:cosmiconfig@9.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:css-functions-list",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:css-tree",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:debug",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:fast-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:fastest-levenshtein",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:file-entry-cache@8.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:global-modules",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:globby@11.1.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:globjoin",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:html-tags",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:ignore",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:imurmurhash",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:is-plain-object@5.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:known-css-properties",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:mathml-tag-names",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:meow",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:micromatch",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:normalize-path",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:picocolors",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:postcss",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:postcss-resolve-nested-selector",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:postcss-safe-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:postcss-selector-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:postcss-value-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:resolve-from",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:string-width",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:strip-ansi@7.1.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:supports-hyperlinks",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:svg-tags",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:table",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint",
+      "target": "npm:write-file-atomic",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-config-sass-guidelines",
+      "target": "npm:postcss",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-config-sass-guidelines",
+      "target": "npm:stylelint",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-config-sass-guidelines",
+      "target": "npm:postcss-scss",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-config-sass-guidelines",
+      "target": "npm:stylelint-scss",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-scss",
+      "target": "npm:stylelint",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-scss",
+      "target": "npm:known-css-properties",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-scss",
+      "target": "npm:postcss-media-query-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-scss",
+      "target": "npm:postcss-resolve-nested-selector",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-scss",
+      "target": "npm:postcss-selector-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:stylelint-scss",
+      "target": "npm:postcss-value-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:brace-expansion@2.0.1",
+      "target": "npm:balanced-match",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@9.0.0",
+      "target": "npm:typescript",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@9.0.0",
+      "target": "npm:env-paths",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@9.0.0",
+      "target": "npm:import-fresh",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@9.0.0",
+      "target": "npm:js-yaml@4.1.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@9.0.0",
+      "target": "npm:parse-json",
+      "type": "static"
+    },
+    {
+      "source": "npm:file-entry-cache@8.0.0",
+      "target": "npm:flat-cache@4.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:flat-cache@4.0.0",
+      "target": "npm:flatted",
+      "type": "static"
+    },
+    {
+      "source": "npm:flat-cache@4.0.0",
+      "target": "npm:keyv",
+      "type": "static"
+    },
+    {
+      "source": "npm:flat-cache@4.0.0",
+      "target": "npm:rimraf@5.0.5",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:foreground-child",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:jackspeak",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:minimatch@9.0.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:minipass",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:path-scurry",
+      "type": "static"
+    },
+    {
+      "source": "npm:globby@11.1.0",
+      "target": "npm:array-union",
+      "type": "static"
+    },
+    {
+      "source": "npm:globby@11.1.0",
+      "target": "npm:dir-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:globby@11.1.0",
+      "target": "npm:fast-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:globby@11.1.0",
+      "target": "npm:ignore",
+      "type": "static"
+    },
+    {
+      "source": "npm:globby@11.1.0",
+      "target": "npm:merge2",
+      "type": "static"
+    },
+    {
+      "source": "npm:globby@11.1.0",
+      "target": "npm:slash@3.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:js-yaml@4.1.0",
+      "target": "npm:argparse@2.0.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:minimatch@9.0.3",
+      "target": "npm:brace-expansion@2.0.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:rimraf@5.0.5",
+      "target": "npm:glob@10.3.10",
+      "type": "static"
+    },
+    {
+      "source": "npm:strip-ansi@7.1.0",
+      "target": "npm:ansi-regex@6.0.1",
+      "type": "static"
+    },
+    {
       "source": "npm:supports-color",
       "target": "npm:has-flag",
+      "type": "static"
+    },
+    {
+      "source": "npm:supports-hyperlinks",
+      "target": "npm:has-flag@4.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:supports-hyperlinks",
+      "target": "npm:supports-color@7.2.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:supports-color@7.2.0",
+      "target": "npm:has-flag@4.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:table",
+      "target": "npm:ajv",
+      "type": "static"
+    },
+    {
+      "source": "npm:table",
+      "target": "npm:lodash.truncate",
+      "type": "static"
+    },
+    {
+      "source": "npm:table",
+      "target": "npm:slice-ansi",
+      "type": "static"
+    },
+    {
+      "source": "npm:table",
+      "target": "npm:string-width",
+      "type": "static"
+    },
+    {
+      "source": "npm:table",
+      "target": "npm:strip-ansi",
       "type": "static"
     },
     {
@@ -18778,6 +22578,16 @@
     {
       "source": "npm:color-convert@2.0.1",
       "target": "npm:color-name@1.1.4",
+      "type": "static"
+    },
+    {
+      "source": "npm:write-file-atomic",
+      "target": "npm:imurmurhash",
+      "type": "static"
+    },
+    {
+      "source": "npm:write-file-atomic",
+      "target": "npm:signal-exit@4.1.0",
       "type": "static"
     },
     {
