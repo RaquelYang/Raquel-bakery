@@ -2,45 +2,50 @@
   <mat-toolbar>
     <span>Raquel Bakery CMS 登入系統</span>
   </mat-toolbar>
-  <div class="h-form flex items-center">
-    <form class="text-center" [formGroup]="form">
-      <mat-form-field class="w-96">
-        <mat-label>帳號</mat-label>
-        <input
-          matInput
-          type="text"
-          placeholder="請輸入帳號"
-          formControlName="account"
-        >
-        @if (account.hasError('required')) {
-          <mat-error>帳號為必填</mat-error>
-        }
-      </mat-form-field>
-      <mat-form-field class="w-96">
-        <mat-label>密碼</mat-label>
-        <input
-          matInput
-          [type]="lock ? 'password' : 'text'"
-          placeholder="請輸入密碼"
-          formControlName="password"
-        >
-          <button type='button' matSuffix mat-icon-button (click)="lock = !lock;">
-            <mat-icon *ngIf="lock; else tLockOpen">lock</mat-icon>
-            <ng-template #tLockOpen>
-              <mat-icon>lock_open</mat-icon>
-            </ng-template>
-          </button>
+  <div class="form-content flex items-center justify-center">
+    <div>
+      <form class="text-center" [formGroup]="form">
+        <div>
+          <mat-form-field class="w-72 max-sm:w-48">
+            <mat-label>帳號</mat-label>
+            <input
+              matInput
+              type="text"
+              placeholder="請輸入帳號"
+              formControlName="account"
+            >
+            @if (account.hasError('required')) {
+              <mat-error>帳號為必填</mat-error>
+            }
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field class="w-72 max-sm:w-48">
+            <mat-label>密碼</mat-label>
+            <input
+              matInput
+              [type]="lock ? 'password' : 'text'"
+              placeholder="請輸入密碼"
+              formControlName="password"
+            >
+              <button type='button' matSuffix mat-icon-button (click)="lock = !lock;">
+                <mat-icon *ngIf="lock; else tLockOpen">lock</mat-icon>
+                <ng-template #tLockOpen>
+                  <mat-icon>lock_open</mat-icon>
+                </ng-template>
+              </button>
 
-        @if (password.hasError('required')) {
-          <mat-error>密碼為必填</mat-error>
-        }
-      </mat-form-field>
-      <div class="w-96 inline-block">
-        <button class="w-full" mat-raised-button color="primary" [disabled]="form.invalid">登入</button>
-      </div>
-    </form>
+            @if (password.hasError('required')) {
+              <mat-error>密碼為必填</mat-error>
+            }
+          </mat-form-field>
+        </div>
+        <div class="w-72 max-sm:w-48">
+          <button class="w-full" mat-raised-button color="primary" [disabled]="form.invalid">登入</button>
+        </div>
+      </form>
+    </div>
   </div>
-
 </div>
 
 

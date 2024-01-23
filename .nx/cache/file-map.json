@@ -32,6 +32,7 @@
     "@types/node": "^18.18.0",
     "@typescript-eslint/eslint-plugin": "6.19.0",
     "@typescript-eslint/parser": "6.19.0",
+    "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
@@ -39,8 +40,10 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss": "^8.4.33",
     "prettier": "3.2.4",
     "stylelint": "^16.2.0",
+    "tailwindcss": "^3.4.1",
     "typescript": "~5.2.2"
   },
   "pathMappings": {},
@@ -50,7 +53,7 @@
     "nonProjectFiles": [
       {
         "file": ". prettierrc",
-        "hash": "15403541916480426950"
+        "hash": "7985638759738871419"
       },
       {
         "file": ".editorconfig",
@@ -67,6 +70,10 @@
       {
         "file": ".prettierignore",
         "hash": "16979182591686405770"
+      },
+      {
+        "file": ".stylelintrc.json",
+        "hash": "4067466629637093535"
       },
       {
         "file": ".vscode/extensions.json",
@@ -86,27 +93,43 @@
       },
       {
         "file": "angular.json",
-        "hash": "15639869881695531369"
+        "hash": "8773372728785344226"
       },
       {
         "file": "package-lock.json",
-        "hash": "6019513990076402739"
+        "hash": "12807413142905250832"
       },
       {
         "file": "package.json",
-        "hash": "3783762414334641470"
+        "hash": "11201097828581760407"
       },
       {
         "file": "server.ts",
         "hash": "7713808127824314998"
       },
       {
+        "file": "src/_mockserver/_db.js",
+        "hash": "14718479645679985394"
+      },
+      {
+        "file": "src/_mockserver/config.json",
+        "hash": "15099606741040922858"
+      },
+      {
+        "file": "src/_mockserver/myapp/hello/world.js",
+        "hash": "9689727412217124046"
+      },
+      {
+        "file": "src/_mockserver/router.json",
+        "hash": "6968912307375078589"
+      },
+      {
         "file": "src/app/app.component.html",
-        "hash": "17978981535128180860"
+        "hash": "13716199232828428414"
       },
       {
         "file": "src/app/app.component.scss",
-        "hash": "3244421341483603138"
+        "hash": "9108944600220351636"
       },
       {
         "file": "src/app/app.component.spec.ts",
@@ -114,7 +137,7 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "7704499035887047219"
+        "hash": "16560962733969809730"
       },
       {
         "file": "src/app/app.config.server.ts",
@@ -122,7 +145,7 @@
       },
       {
         "file": "src/app/app.config.ts",
-        "hash": "11821239874568871925"
+        "hash": "9914684919960579397"
       },
       {
         "file": "src/app/app.routes.ts",
@@ -138,7 +161,7 @@
       },
       {
         "file": "src/index.html",
-        "hash": "11066676546256407996"
+        "hash": "11381464769608561270"
       },
       {
         "file": "src/main.server.ts",
@@ -150,7 +173,11 @@
       },
       {
         "file": "src/styles.scss",
-        "hash": "5195668842064076916"
+        "hash": "2866083945719690482"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "15837075864296032885"
       },
       {
         "file": "tsconfig.app.json",
