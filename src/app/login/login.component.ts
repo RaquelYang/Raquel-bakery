@@ -26,7 +26,7 @@ export class LoginComponent {
   constructor(private fb: FormBuilder, private router: Router,) {}
 
   login(): void {
-    this.router.navigate(['/main']);
+    this.router.navigate(['/dashboard']);
   }
 
 
