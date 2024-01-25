@@ -125,11 +125,11 @@
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "13716199232828428414"
+        "hash": "5986523611403927879"
       },
       {
         "file": "src/app/app.component.scss",
-        "hash": "9108944600220351636"
+        "hash": "4055606894390288348"
       },
       {
         "file": "src/app/app.component.spec.ts",
@@ -137,7 +137,7 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "16560962733969809730"
+        "hash": "290439654284174900"
       },
       {
         "file": "src/app/app.config.server.ts",
@@ -149,7 +149,75 @@
       },
       {
         "file": "src/app/app.routes.ts",
-        "hash": "12397496131277534773"
+        "hash": "426002349619367830"
+      },
+      {
+        "file": "src/app/layouts/layouts.routes.ts",
+        "hash": "866930181407979175"
+      },
+      {
+        "file": "src/app/layouts/main/main.component.html",
+        "hash": "14702717708078270114"
+      },
+      {
+        "file": "src/app/layouts/main/main.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/layouts/main/main.component.spec.ts",
+        "hash": "16010985962105762836"
+      },
+      {
+        "file": "src/app/layouts/main/main.component.ts",
+        "hash": "8238120684534446739"
+      },
+      {
+        "file": "src/app/layouts/navbar/navbar.component.html",
+        "hash": "2127689315001339688"
+      },
+      {
+        "file": "src/app/layouts/navbar/navbar.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/layouts/navbar/navbar.component.spec.ts",
+        "hash": "8582032208992178047"
+      },
+      {
+        "file": "src/app/layouts/navbar/navbar.component.ts",
+        "hash": "5992589510467571787"
+      },
+      {
+        "file": "src/app/layouts/sidebar/sidebar.component.html",
+        "hash": "14995339716191881291"
+      },
+      {
+        "file": "src/app/layouts/sidebar/sidebar.component.scss",
+        "hash": "1879304973245067157"
+      },
+      {
+        "file": "src/app/layouts/sidebar/sidebar.component.spec.ts",
+        "hash": "14313644084917336793"
+      },
+      {
+        "file": "src/app/layouts/sidebar/sidebar.component.ts",
+        "hash": "246454903858375108"
+      },
+      {
+        "file": "src/app/login/login.component.html",
+        "hash": "7663676519771066042"
+      },
+      {
+        "file": "src/app/login/login.component.scss",
+        "hash": "4727108030197106843"
+      },
+      {
+        "file": "src/app/login/login.component.spec.ts",
+        "hash": "13423884664040136397"
+      },
+      {
+        "file": "src/app/login/login.component.ts",
+        "hash": "16565200814719555022"
       },
       {
         "file": "src/assets/.gitkeep",

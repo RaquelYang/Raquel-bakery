@@ -20,6 +20,7 @@ const MAIN_ROUTES: Route[] = [
   {
     path: '',
     loadComponent: () => import('./main/main.component').then(mod => mod.MainComponent),
+    outlet: 'main'
   }
 ];
 
