@@ -125,11 +125,11 @@
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "5986523611403927879"
+        "hash": "12276716171567623513"
       },
       {
         "file": "src/app/app.component.scss",
-        "hash": "4055606894390288348"
+        "hash": "7748001395807346953"
       },
       {
         "file": "src/app/app.component.spec.ts",
@@ -137,7 +137,7 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "290439654284174900"
+        "hash": "15305121796033028271"
       },
       {
         "file": "src/app/app.config.server.ts",
@@ -149,15 +149,15 @@
       },
       {
         "file": "src/app/app.routes.ts",
-        "hash": "426002349619367830"
+        "hash": "18092122426632197711"
       },
       {
         "file": "src/app/layouts/layouts.routes.ts",
-        "hash": "866930181407979175"
+        "hash": "18031150711636937313"
       },
       {
         "file": "src/app/layouts/main/main.component.html",
-        "hash": "14702717708078270114"
+        "hash": "723949938879850727"
       },
       {
         "file": "src/app/layouts/main/main.component.scss",
@@ -169,7 +169,7 @@
       },
       {
         "file": "src/app/layouts/main/main.component.ts",
-        "hash": "8238120684534446739"
+        "hash": "1801638167335501812"
       },
       {
         "file": "src/app/layouts/navbar/navbar.component.html",
@@ -189,11 +189,11 @@
       },
       {
         "file": "src/app/layouts/sidebar/sidebar.component.html",
-        "hash": "14995339716191881291"
+        "hash": "15452172417051126706"
       },
       {
         "file": "src/app/layouts/sidebar/sidebar.component.scss",
-        "hash": "1879304973245067157"
+        "hash": "3244421341483603138"
       },
       {
         "file": "src/app/layouts/sidebar/sidebar.component.spec.ts",
@@ -201,7 +201,11 @@
       },
       {
         "file": "src/app/layouts/sidebar/sidebar.component.ts",
-        "hash": "246454903858375108"
+        "hash": "553406237346887084"
+      },
+      {
+        "file": "src/app/layouts/sidebar/sidebar.constant.ts",
+        "hash": "3244421341483603138"
       },
       {
         "file": "src/app/login/login.component.html",

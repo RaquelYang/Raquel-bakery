@@ -24,6 +24,20 @@ const MAIN_ROUTES: Route[] = [
   }
 ];
 
+const DASHBOARD_ROUTES: Route[] = [
+  {
+    path: '',
+    loadComponent: () => import('./dashboard/dashboard.component').then(mod => mod.DashboardComponent),
+    children: [
+      ...NAVBAR_ROUTES, ...MAIN_ROUTES, ...SIDEBAR_ROUTES
+    ]
+  }
+];
+
+
+// export const LAYOUTS_ROUTES: Route[] = [
+//   ...NAVBAR_ROUTES, ...SIDEBAR_ROUTES, ...MAIN_ROUTES
+// ];
 export const LAYOUTS_ROUTES: Route[] = [
-  ...NAVBAR_ROUTES, ...SIDEBAR_ROUTES, ...MAIN_ROUTES
+  ...DASHBOARD_ROUTES
 ];
