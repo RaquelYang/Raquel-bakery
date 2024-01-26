@@ -1,3 +1,4 @@
+import { sidebarResolver } from './../shared/resolve/sidebar.resolver';
 import { Route } from '@angular/router';
 
 const NAVBAR_ROUTES: Route[] = [
@@ -12,7 +13,8 @@ const SIDEBAR_ROUTES: Route[] = [
   {
     path: '',
     loadComponent: () => import('./sidebar/sidebar.component').then(mod => mod.SidebarComponent),
-    outlet: 'sidebar'
+    outlet: 'sidebar',
+    resolve: {sidebarLists: sidebarResolver}
   }
 ];
 

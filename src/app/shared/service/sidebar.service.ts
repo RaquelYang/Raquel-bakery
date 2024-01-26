@@ -9,7 +9,7 @@ export class SidebarService {
 
   constructor() { }
 
-  getSidebarList(): Observable<SidebarVM[]> {
-    return of(SIDEBAR_ITEMS).pipe(delay(1000))
+  getSidebarLists(): Observable<SidebarVM[]> {
+    return of(SIDEBAR_ITEMS)
   }
 }
