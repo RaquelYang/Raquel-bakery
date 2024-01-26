@@ -1,6 +1,7 @@
-<mat-nav-list>
-  <a mat-list-item routerLink="'/'">123</a>
-</mat-nav-list>
-<mat-nav-list>
-  <a mat-list-item>456</a>
-</mat-nav-list>
+@for(list of sidebarLists; track list.name) {
+  <mat-nav-list>
+    <a mat-list-item [routerLink]="list.path">{{list.name}}</a>
+  </mat-nav-list>
+} @empty {
+  empty
+}

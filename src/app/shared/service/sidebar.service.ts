@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, delay, of } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { SIDEBAR_ITEMS, SidebarVM } from '../../layouts/sidebar/sidebar.model';
 
 @Injectable({
