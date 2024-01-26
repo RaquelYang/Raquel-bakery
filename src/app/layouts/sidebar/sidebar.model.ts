@@ -18,12 +18,7 @@ export const SIDEBAR_ITEMS: SidebarVM[] = [
     path: '/dashboard',
     name: '營運管理',
     enabled: true
-  },
-  {
-    path: '/dashboard',
-    name: '進退貨管理',
-    enabled: true
-  },
+  }
 ]
 
 export interface SidebarVM {

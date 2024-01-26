@@ -22,7 +22,7 @@ const MAIN_ROUTES: Route[] = [
   {
     path: '',
     loadComponent: () => import('./main/main.component').then(mod => mod.MainComponent),
-    outlet: 'main'
+    outlet: 'main',
   }
 ];
 
@@ -36,10 +36,6 @@ const DASHBOARD_ROUTES: Route[] = [
   }
 ];
 
-
-// export const LAYOUTS_ROUTES: Route[] = [
-//   ...NAVBAR_ROUTES, ...SIDEBAR_ROUTES, ...MAIN_ROUTES
-// ];
 export const LAYOUTS_ROUTES: Route[] = [
   ...DASHBOARD_ROUTES
 ];
