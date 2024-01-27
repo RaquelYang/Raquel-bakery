@@ -1,21 +1,21 @@
 export const SIDEBAR_ITEMS: SidebarVM[] = [
   {
-    path: '/dashboard',
+    path: '/dashboard/inventory-management',
     name: '品項管理',
     enabled: true
   },
   {
-    path: '/dashboard',
+    path: '/dashboard/items-management',
     name: '接收訂單',
     enabled: true
   },
   {
-    path: '/dashboard',
+    path: '/dashboard/operations-management',
     name: '材料庫存管理',
     enabled: true
   },
   {
-    path: '/dashboard',
+    path: '/dashboard/receive-order',
     name: '營運管理',
     enabled: true
   }

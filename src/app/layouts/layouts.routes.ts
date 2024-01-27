@@ -1,41 +1,32 @@
 import { sidebarResolver } from './../shared/resolve/sidebar.resolver';
 import { Route } from '@angular/router';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { PAGES_ROUTES } from '../pages/pages.routes';
 
-const NAVBAR_ROUTES: Route[] = [
-  {
-    path: '',
-    loadComponent: () => import('./navbar/navbar.component').then(mod => mod.NavbarComponent),
-    outlet: 'navbar'
-  }
-];
+const NAVBAR_ROUTES: Route =
+{
+  path: '',
+  component: NavbarComponent,
+  outlet: 'navbar'
+};
 
-const SIDEBAR_ROUTES: Route[] = [
-  {
-    path: '',
-    loadComponent: () => import('./sidebar/sidebar.component').then(mod => mod.SidebarComponent),
-    outlet: 'sidebar',
-    resolve: {sidebarLists: sidebarResolver}
-  }
-];
+const SIDEBAR_ROUTES: Route =
+{
+  path: '',
+  component: SidebarComponent,
+  outlet: 'sidebar',
+  resolve: {sidebarLists: sidebarResolver}
+};
 
-const MAIN_ROUTES: Route[] = [
-  {
-    path: '',
-    loadComponent: () => import('./main/main.component').then(mod => mod.MainComponent),
-    outlet: 'main',
-  }
-];
-
-const DASHBOARD_ROUTES: Route[] = [
-  {
-    path: '',
-    loadComponent: () => import('./dashboard/dashboard.component').then(mod => mod.DashboardComponent),
-    children: [
-      ...NAVBAR_ROUTES, ...MAIN_ROUTES, ...SIDEBAR_ROUTES
-    ]
-  }
-];
 
 export const LAYOUTS_ROUTES: Route[] = [
-  ...DASHBOARD_ROUTES
+  NAVBAR_ROUTES,
+  SIDEBAR_ROUTES,
+  ...PAGES_ROUTES,
+  {
+    path: '',
+    redirectTo: 'inventory-management',
+    pathMatch: 'full'
+  }
 ];
