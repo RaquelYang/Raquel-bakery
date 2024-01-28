@@ -18,7 +18,17 @@ export const SIDEBAR_ITEMS: SidebarVM[] = [
     path: '/dashboard/receive-order',
     name: '營運管理',
     enabled: true
-  }
+  },
+  {
+    path: '/dashboard/react-form-test',
+    name: 'reactFormTest',
+    enabled: true
+  },
+  {
+    path: '/dashboard/react-form-control-value-accessor-test',
+    name: 'reactFormComponentTest',
+    enabled: true
+  },
 ]
 
 export interface SidebarVM {

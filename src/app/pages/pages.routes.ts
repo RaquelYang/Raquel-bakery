@@ -18,4 +18,12 @@ export const PAGES_ROUTES: Route[] = [
     path: 'receive-order',
     loadComponent: () => import('./receive-order/receive-order.component').then(mod => mod.ReceiveOrderComponent)
   },
+  {
+    path: 'react-form-test',
+    loadComponent: () => import('./react-form-test/react-form-test.component').then(mod => mod.ReactFormTestComponent)
+  },
+  {
+    path: 'react-form-control-value-accessor-test',
+    loadComponent: () => import('./react-form-control-value-accessor-test/react-form-control-value-accessor-test.component').then(mod => mod.ReactFormControlValueAccessorTestComponent)
+  },
 ];
