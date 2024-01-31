@@ -20,15 +20,10 @@ export const SIDEBAR_ITEMS: SidebarVM[] = [
     enabled: true
   },
   {
-    path: '/dashboard/react-form-test',
-    name: 'reactFormTest',
+    path: '/dashboard/test-form',
+    name: 'Form-Test',
     enabled: true
-  },
-  {
-    path: '/dashboard/react-form-control-value-accessor-test',
-    name: 'reactFormComponentTest',
-    enabled: true
-  },
+  }
 ]
 
 export interface SidebarVM {

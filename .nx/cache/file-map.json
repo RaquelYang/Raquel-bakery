@@ -125,11 +125,11 @@
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "12276716171567623513"
+        "hash": "17427756144828054922"
       },
       {
         "file": "src/app/app.component.scss",
-        "hash": "7748001395807346953"
+        "hash": "3244421341483603138"
       },
       {
         "file": "src/app/app.component.spec.ts",
@@ -137,7 +137,7 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "15305121796033028271"
+        "hash": "16078767692758653446"
       },
       {
         "file": "src/app/app.config.server.ts",
@@ -149,19 +149,19 @@
       },
       {
         "file": "src/app/app.routes.ts",
-        "hash": "18092122426632197711"
+        "hash": "9041374527281831247"
       },
       {
         "file": "src/app/layouts/layouts.routes.ts",
-        "hash": "18031150711636937313"
+        "hash": "74852337546308687"
       },
       {
         "file": "src/app/layouts/main/main.component.html",
-        "hash": "723949938879850727"
+        "hash": "4185554653203120411"
       },
       {
         "file": "src/app/layouts/main/main.component.scss",
-        "hash": "3244421341483603138"
+        "hash": "978368596506297674"
       },
       {
         "file": "src/app/layouts/main/main.component.spec.ts",
@@ -169,7 +169,7 @@
       },
       {
         "file": "src/app/layouts/main/main.component.ts",
-        "hash": "1801638167335501812"
+        "hash": "9442659266258464863"
       },
       {
         "file": "src/app/layouts/navbar/navbar.component.html",
@@ -189,7 +189,7 @@
       },
       {
         "file": "src/app/layouts/sidebar/sidebar.component.html",
-        "hash": "15452172417051126706"
+        "hash": "17163102215624743654"
       },
       {
         "file": "src/app/layouts/sidebar/sidebar.component.scss",
@@ -201,11 +201,11 @@
       },
       {
         "file": "src/app/layouts/sidebar/sidebar.component.ts",
-        "hash": "553406237346887084"
+        "hash": "2280151718083716551"
       },
       {
-        "file": "src/app/layouts/sidebar/sidebar.constant.ts",
-        "hash": "3244421341483603138"
+        "file": "src/app/layouts/sidebar/sidebar.model.ts",
+        "hash": "15259922469984535930"
       },
       {
         "file": "src/app/login/login.component.html",
@@ -222,6 +222,118 @@
       {
         "file": "src/app/login/login.component.ts",
         "hash": "16565200814719555022"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-management.component.html",
+        "hash": "2078609711014809949"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-management.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-management.component.spec.ts",
+        "hash": "3844057238425087299"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-management.component.ts",
+        "hash": "15314118603243739391"
+      },
+      {
+        "file": "src/app/pages/items-management/items-management.component.html",
+        "hash": "12867960287941638752"
+      },
+      {
+        "file": "src/app/pages/items-management/items-management.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/items-management/items-management.component.spec.ts",
+        "hash": "6967495246151378191"
+      },
+      {
+        "file": "src/app/pages/items-management/items-management.component.ts",
+        "hash": "14487957351852008023"
+      },
+      {
+        "file": "src/app/pages/operations-management/operations-management.component.html",
+        "hash": "9646154484264386902"
+      },
+      {
+        "file": "src/app/pages/operations-management/operations-management.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/operations-management/operations-management.component.spec.ts",
+        "hash": "10363274169921880603"
+      },
+      {
+        "file": "src/app/pages/operations-management/operations-management.component.ts",
+        "hash": "4955806289932089366"
+      },
+      {
+        "file": "src/app/pages/pages.routes.ts",
+        "hash": "9349220116621255124"
+      },
+      {
+        "file": "src/app/pages/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.html",
+        "hash": "3495740759399905305"
+      },
+      {
+        "file": "src/app/pages/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.spec.ts",
+        "hash": "15965265976696418246"
+      },
+      {
+        "file": "src/app/pages/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.ts",
+        "hash": "16608011092492906297"
+      },
+      {
+        "file": "src/app/pages/react-form-test/react-form-test.component.html",
+        "hash": "6807152246547669524"
+      },
+      {
+        "file": "src/app/pages/react-form-test/react-form-test.component.scss",
+        "hash": "15153884222818531648"
+      },
+      {
+        "file": "src/app/pages/react-form-test/react-form-test.component.spec.ts",
+        "hash": "18320691689564615108"
+      },
+      {
+        "file": "src/app/pages/react-form-test/react-form-test.component.ts",
+        "hash": "1758222091245842269"
+      },
+      {
+        "file": "src/app/pages/receive-order/receive-order.component.html",
+        "hash": "6962066491852064893"
+      },
+      {
+        "file": "src/app/pages/receive-order/receive-order.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/receive-order/receive-order.component.spec.ts",
+        "hash": "5301276758375185402"
+      },
+      {
+        "file": "src/app/pages/receive-order/receive-order.component.ts",
+        "hash": "5409347598128707662"
+      },
+      {
+        "file": "src/app/shared/resolve/sidebar.resolver.ts",
+        "hash": "13857566223156202336"
+      },
+      {
+        "file": "src/app/shared/service/sidebar.service.spec.ts",
+        "hash": "11349758495491277401"
+      },
+      {
+        "file": "src/app/shared/service/sidebar.service.ts",
+        "hash": "17991047997911867789"
       },
       {
         "file": "src/assets/.gitkeep",

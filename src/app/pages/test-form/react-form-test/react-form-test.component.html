@@ -1,0 +1,55 @@
+<div>
+  <h3>這邊測試 Form 表單會使用到的元件</h3>
+  <mat-divider></mat-divider>
+  <form [formGroup]="form">
+    <div>autocomplete</div>
+    <div>value: {{autocomplete.value| json}}</div>
+    <div>dirty: {{autocomplete.dirty| json}}</div>
+    <div>disable: {{autocomplete.disable| json}}</div>
+    <div>errors: {{autocomplete.errors| json}}</div>
+    <div>touched: {{autocomplete.touched| json}}</div>
+
+    <mat-form-field class="example-full-width">
+    <mat-label>autocomplete</mat-label>
+    <input type="text"
+           placeholder="Pick one"
+           aria-label="Number"
+           matInput
+           formControlName="autocomplete"
+           [matAutocomplete]="auto">
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      @for (option of filteredOptions | async; track option) {
+        <mat-option [value]="option">{{option}}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+
+  <mat-divider></mat-divider>
+
+  <div>autocompleteWithValidator</div>
+    <div>value: {{autocompleteWithValidator.value| json}}</div>
+    <div>dirty: {{autocompleteWithValidator.dirty| json}}</div>
+    <div>disable: {{autocompleteWithValidator.disable| json}}</div>
+    <div>errors: {{autocompleteWithValidator.errors| json}}</div>
+    <div>touched: {{autocompleteWithValidator.touched| json}}</div>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>autocompleteWithValidator</mat-label>
+    <input type="text"
+           placeholder="Pick one"
+           aria-label="Number"
+           matInput
+           formControlName="autocompleteWithValidator"
+           [matAutocomplete]="auto">
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      @for (option of filteredOptions | async; track option) {
+        <mat-option [value]="option">{{option}}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+
+  <mat-divider></mat-divider>
+
+  </form>
+</div>
+
