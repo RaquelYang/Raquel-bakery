@@ -1,8 +1,19 @@
 <div>
-  <h3>這邊測試 Form 表單會使用到的元件</h3>
+  <h3>Form 表單使用一般的 FromGroup</h3>
   <mat-divider></mat-divider>
+  <div>input</div>
+  <div>value: {{input.value| json}}</div>
+    <div>dirty: {{input.dirty| json}}</div>
+    <div>disable: {{input.disable| json}}</div>
+    <div>errors: {{input.errors| json}}</div>
+    <div>touched: {{input.touched| json}}</div>
   <form [formGroup]="form">
-    <div>autocomplete</div>
+  <mat-form-field class="example-full-width">
+    <mat-label>input</mat-label>
+    <input type="text" matInput formControlName="input" placeholder="Ex. pat@example.com">
+    <mat-hint>Errors appear instantly!</mat-hint>
+  </mat-form-field>
+    <!-- <div>autocomplete</div>
     <div>value: {{autocomplete.value| json}}</div>
     <div>dirty: {{autocomplete.dirty| json}}</div>
     <div>disable: {{autocomplete.disable| json}}</div>
@@ -22,10 +33,10 @@
         <mat-option [value]="option">{{option}}</mat-option>
       }
     </mat-autocomplete>
-  </mat-form-field>
+  </mat-form-field> -->
 
   <mat-divider></mat-divider>
-
+<!--
   <div>autocompleteWithValidator</div>
     <div>value: {{autocompleteWithValidator.value| json}}</div>
     <div>dirty: {{autocompleteWithValidator.dirty| json}}</div>
@@ -48,7 +59,7 @@
     </mat-autocomplete>
   </mat-form-field>
 
-  <mat-divider></mat-divider>
+  <mat-divider></mat-divider> -->
 
   </form>
 </div>

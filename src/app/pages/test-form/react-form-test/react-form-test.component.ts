@@ -21,6 +21,7 @@ export class ReactFormTestComponent implements OnInit {
   filteredOptions!: Observable<string[]>;
   constructor(private fb: FormBuilder){
     this.form = this.fb.group({
+      input: '',
       autocomplete: '',
       autocompleteWithValidator: ['', Validators.required]
     });
@@ -37,6 +38,10 @@ export class ReactFormTestComponent implements OnInit {
     const filterValue = value.toLowerCase();
 
     return this.options.filter(option => option.toLowerCase().includes(filterValue));
+  }
+
+  get input(): AbstractControl {
+    return this.form.controls['input']
   }
 
   get autocomplete(): AbstractControl {
