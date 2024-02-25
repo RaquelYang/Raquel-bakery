@@ -12,13 +12,13 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './input.component.scss'
 })
 export class InputComponent implements ControlValueAccessor {
-  @Input() placeholder = '請輸入關鍵字';
-  @Input() hint = 'aaa';
-  @Input() required = true;
+  @Input() placeholder = '';
+  @Input() hint = '';
+  @Input() required = false;
   @Input() type = 'text';
   @Input() title = '標題名稱';
 
-   value!: string;
+  value!: string;
   disabled = false;
 
   constructor(@Optional() @Self() public inputControl: NgControl) {

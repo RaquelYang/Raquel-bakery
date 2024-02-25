@@ -1,2 +1,16 @@
-<p>inventory-management works!</p>
-aaa123
+<p class="search-title">搜尋條件</p>
+<form [formGroup]="searchForm">
+  <ui-input
+    formControlName="name"
+    title="品項名稱"
+  ></ui-input>
+  <ui-input
+    formControlName="category"
+    title="品項類別"
+  ></ui-input>
+  <ui-input
+    formControlName="onSale"
+    title="是否上架"
+  ></ui-input>
+
+</form>
