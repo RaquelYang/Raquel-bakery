@@ -21,7 +21,8 @@ export class ReactFormTestComponent implements OnInit {
   filteredOptions!: Observable<string[]>;
   constructor(private fb: FormBuilder){
     this.form = this.fb.group({
-      input: '',
+      // input: [''],
+      input: ['', Validators.required],
       autocomplete: '',
       autocompleteWithValidator: ['', Validators.required]
     });

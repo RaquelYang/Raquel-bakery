@@ -61,7 +61,7 @@
       },
       {
         "file": ".eslintrc.json",
-        "hash": "14645878845883387518"
+        "hash": "2258184768458187328"
       },
       {
         "file": ".gitignore",
@@ -93,7 +93,7 @@
       },
       {
         "file": "angular.json",
-        "hash": "8773372728785344226"
+        "hash": "10930120616543419718"
       },
       {
         "file": "package-lock.json",
@@ -132,10 +132,6 @@
         "hash": "3244421341483603138"
       },
       {
-        "file": "src/app/app.component.spec.ts",
-        "hash": "11612403315569965413"
-      },
-      {
         "file": "src/app/app.component.ts",
         "hash": "16078767692758653446"
       },
@@ -164,10 +160,6 @@
         "hash": "978368596506297674"
       },
       {
-        "file": "src/app/layouts/main/main.component.spec.ts",
-        "hash": "16010985962105762836"
-      },
-      {
         "file": "src/app/layouts/main/main.component.ts",
         "hash": "9442659266258464863"
       },
@@ -178,10 +170,6 @@
       {
         "file": "src/app/layouts/navbar/navbar.component.scss",
         "hash": "3244421341483603138"
-      },
-      {
-        "file": "src/app/layouts/navbar/navbar.component.spec.ts",
-        "hash": "8582032208992178047"
       },
       {
         "file": "src/app/layouts/navbar/navbar.component.ts",
@@ -196,16 +184,12 @@
         "hash": "3244421341483603138"
       },
       {
-        "file": "src/app/layouts/sidebar/sidebar.component.spec.ts",
-        "hash": "14313644084917336793"
-      },
-      {
         "file": "src/app/layouts/sidebar/sidebar.component.ts",
         "hash": "2280151718083716551"
       },
       {
         "file": "src/app/layouts/sidebar/sidebar.model.ts",
-        "hash": "15259922469984535930"
+        "hash": "352485891553732970"
       },
       {
         "file": "src/app/login/login.component.html",
@@ -214,10 +198,6 @@
       {
         "file": "src/app/login/login.component.scss",
         "hash": "4727108030197106843"
-      },
-      {
-        "file": "src/app/login/login.component.spec.ts",
-        "hash": "13423884664040136397"
       },
       {
         "file": "src/app/login/login.component.ts",
@@ -232,10 +212,6 @@
         "hash": "3244421341483603138"
       },
       {
-        "file": "src/app/pages/inventory-management/inventory-management.component.spec.ts",
-        "hash": "3844057238425087299"
-      },
-      {
         "file": "src/app/pages/inventory-management/inventory-management.component.ts",
         "hash": "15314118603243739391"
       },
@@ -246,10 +222,6 @@
       {
         "file": "src/app/pages/items-management/items-management.component.scss",
         "hash": "3244421341483603138"
-      },
-      {
-        "file": "src/app/pages/items-management/items-management.component.spec.ts",
-        "hash": "6967495246151378191"
       },
       {
         "file": "src/app/pages/items-management/items-management.component.ts",
@@ -264,48 +236,12 @@
         "hash": "3244421341483603138"
       },
       {
-        "file": "src/app/pages/operations-management/operations-management.component.spec.ts",
-        "hash": "10363274169921880603"
-      },
-      {
         "file": "src/app/pages/operations-management/operations-management.component.ts",
         "hash": "4955806289932089366"
       },
       {
         "file": "src/app/pages/pages.routes.ts",
-        "hash": "9349220116621255124"
-      },
-      {
-        "file": "src/app/pages/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.html",
-        "hash": "3495740759399905305"
-      },
-      {
-        "file": "src/app/pages/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.scss",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "src/app/pages/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.spec.ts",
-        "hash": "15965265976696418246"
-      },
-      {
-        "file": "src/app/pages/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.ts",
-        "hash": "16608011092492906297"
-      },
-      {
-        "file": "src/app/pages/react-form-test/react-form-test.component.html",
-        "hash": "6807152246547669524"
-      },
-      {
-        "file": "src/app/pages/react-form-test/react-form-test.component.scss",
-        "hash": "15153884222818531648"
-      },
-      {
-        "file": "src/app/pages/react-form-test/react-form-test.component.spec.ts",
-        "hash": "18320691689564615108"
-      },
-      {
-        "file": "src/app/pages/react-form-test/react-form-test.component.ts",
-        "hash": "1758222091245842269"
+        "hash": "11366291031915309449"
       },
       {
         "file": "src/app/pages/receive-order/receive-order.component.html",
@@ -316,12 +252,100 @@
         "hash": "3244421341483603138"
       },
       {
-        "file": "src/app/pages/receive-order/receive-order.component.spec.ts",
-        "hash": "5301276758375185402"
-      },
-      {
         "file": "src/app/pages/receive-order/receive-order.component.ts",
         "hash": "5409347598128707662"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.html",
+        "hash": "11757762679388605223"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.ts",
+        "hash": "16347515700878618516"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-ng-control/react-form-ng-control.component.html",
+        "hash": "16833219402089599669"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-ng-control/react-form-ng-control.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-ng-control/react-form-ng-control.component.spec.ts",
+        "hash": "16890632515440240311"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-ng-control/react-form-ng-control.component.ts",
+        "hash": "17016742804097642035"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-test/react-form-test.component.html",
+        "hash": "337117279894245961"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-test/react-form-test.component.scss",
+        "hash": "15153884222818531648"
+      },
+      {
+        "file": "src/app/pages/test-form/react-form-test/react-form-test.component.ts",
+        "hash": "5521782716082215303"
+      },
+      {
+        "file": "src/app/pages/test-form/test-form.component.html",
+        "hash": "15902034748629702724"
+      },
+      {
+        "file": "src/app/pages/test-form/test-form.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/test-form/test-form.component.ts",
+        "hash": "2152487781888164811"
+      },
+      {
+        "file": "src/app/shared/components/form/input-ng-control/input-ng-control.component.html",
+        "hash": "3330628763523407149"
+      },
+      {
+        "file": "src/app/shared/components/form/input-ng-control/input-ng-control.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/shared/components/form/input-ng-control/input-ng-control.component.spec.ts",
+        "hash": "10941942827126145624"
+      },
+      {
+        "file": "src/app/shared/components/form/input-ng-control/input-ng-control.component.ts",
+        "hash": "1903752536410867934"
+      },
+      {
+        "file": "src/app/shared/components/form/input/input.component.html",
+        "hash": "3131269195189512209"
+      },
+      {
+        "file": "src/app/shared/components/form/input/input.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/shared/components/form/input/input.component.ts",
+        "hash": "1526659090333619673"
+      },
+      {
+        "file": "src/app/shared/components/ui/form/input/input.component.html",
+        "hash": "6844775615148837478"
+      },
+      {
+        "file": "src/app/shared/components/ui/form/input/input.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/shared/components/ui/form/input/input.component.ts",
+        "hash": "7500758536684412650"
       },
       {
         "file": "src/app/shared/resolve/sidebar.resolver.ts",

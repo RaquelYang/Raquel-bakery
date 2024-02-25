@@ -1,0 +1,17 @@
+
+<mat-form-field>
+  <mat-label>{{ title }}</mat-label>
+  <input
+    matInput
+    [type]="type"
+    [(ngModel)]="value"
+    (ngModelChange)="onChange(value)"
+    (blur)="onTouched()"
+    [required]="required"
+    [disabled]="disabled"
+    [placeholder]="placeholder">
+  <mat-hint>{{ hint }}</mat-hint>
+  @if (ngControl.hasError('required')) {
+    <mat-error>Is <strong>required</strong></mat-error>
+  }
+</mat-form-field>

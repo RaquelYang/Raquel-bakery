@@ -1,7 +1,5 @@
 <div>
-  <h3>Form 表單使用元件</h3>
-  <p>使用元件的輸入框 優點：好維護 當調整樣式時只需要維護元件即可</p>
-  <div>input</div>
+  <div>input ng control</div>
   <div>value: {{input.value| json}}</div>
     <div>dirty: {{input.dirty| json}}</div>
     <div>disable: {{input.disabled| json}}</div>
@@ -10,6 +8,6 @@
     <div>invalid: {{input.invalid| json}}</div>
   <mat-divider></mat-divider>
   <form [formGroup]="form">
-    <app-input formControlName="input"></app-input>
+    <app-input-ng-control formControlName="input"></app-input-ng-control>
   </form>
 </div>
