@@ -3,28 +3,26 @@ import { Component, Input, Optional, Self } from '@angular/core';
 import { ControlValueAccessor, FormsModule, NgControl, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { MatSelectModule } from '@angular/material/select';
+import {MatSelectModule} from '@angular/material/select';
 
 @Component({
-  selector: 'app-input-ng-control',
+  selector: 'ui-select',
   standalone: true,
   imports: [MatFormFieldModule, MatInputModule, FormsModule, ReactiveFormsModule, CommonModule, MatSelectModule],
-  templateUrl: './input-ng-control.component.html',
-  styleUrl: './input-ng-control.component.scss'
+  templateUrl: './select.component.html',
+  styleUrl: './select.component.scss'
 })
-export class InputNgControlComponent implements ControlValueAccessor {
-  @Input() placeholder = '請輸入關鍵字';
-  @Input() hint = 'aaa';
-  @Input() required = true;
-  @Input() type = 'text';
-  @Input() title = '標題名稱';
 
-  toppingList: string[] = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
+export class SelectComponent implements ControlValueAccessor {
+  @Input() title = '標題名稱';
+  @Input() required = true;
+  @Input() options: Option[] = [];
+
   value!: string;
   disabled = false;
 
-  constructor(@Optional() @Self() public ngControl: NgControl) {
-    this.ngControl.valueAccessor = this;
+  constructor(@Optional() @Self() public selectControl: NgControl) {
+    this.selectControl.valueAccessor = this;
   }
 
   onChange: OnChangeFn<string> = () => {};
@@ -32,7 +30,6 @@ export class InputNgControlComponent implements ControlValueAccessor {
   onValidatorChange = () => {};
 
   writeValue(value: string): void {
-    console.log('ngControl', this.ngControl);
     this.value = value;
   }
 
@@ -51,3 +48,8 @@ export class InputNgControlComponent implements ControlValueAccessor {
 
 type OnChangeFn<T> = (value: T) => void;
 type OnTouched = () => void;
+
+interface Option {
+  value: string;
+  display: string;
+}

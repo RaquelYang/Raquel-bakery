@@ -16,7 +16,7 @@ export class ReactFormNgControlComponent implements OnInit {
 
   constructor(private fb: FormBuilder){
     this.form = this.fb.group({
-      input: ['', [Validators.required, Validators.maxLength(10), Validators.minLength(5)]],
+      input: [[], [Validators.required]],
     });
   }
 

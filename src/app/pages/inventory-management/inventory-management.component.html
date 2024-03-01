@@ -4,13 +4,15 @@
     formControlName="name"
     title="品項名稱"
   ></ui-input>
-  <ui-input
+  <ui-select
     formControlName="category"
     title="品項類別"
-  ></ui-input>
+    [options]="options"
+  ></ui-select>
   <ui-input
     formControlName="onSale"
     title="是否上架"
   ></ui-input>
 
 </form>
+{{searchForm.value|json}}

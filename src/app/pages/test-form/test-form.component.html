@@ -1,3 +1,26 @@
-<app-react-form-control-value-accessor-test></app-react-form-control-value-accessor-test>
-<app-react-form-test></app-react-form-test>
+<mat-form-field>
+  <mat-label>Toppings</mat-label>
+  <mat-select [formControl]="toppings" multiple>
+    <mat-select-trigger>
+      {{toppings.value?.[0] || ''}}
+      @if ((toppings.value?.length || 0) > 1) {
+        <span class="example-additional-selection">
+          (+{{(toppings.value?.length || 0) - 1}} {{toppings.value?.length === 2 ? 'other' : 'others'}})
+        </span>
+      }
+    </mat-select-trigger>
+    @for (topping of toppingList; track topping) {
+  <mat-option [value]="topping">{{topping}}</mat-option>
+}
+  </mat-select>
+</mat-form-field>
+select:
+{{toppings.value}}
+<div>dirty: {{toppings.dirty| json}}</div>
+<div>disable: {{toppings.disabled| json}}</div>
+<div>errors: {{toppings.errors| json}}</div>
+<div>touched: {{toppings.touched| json}}</div>
+<div>invalid: {{toppings.invalid| json}}</div>
+
+
 <app-react-form-ng-control></app-react-form-ng-control>

@@ -1,17 +1,32 @@
 
 <mat-form-field>
   <mat-label>{{ title }}</mat-label>
-  <input
-    matInput
-    [type]="type"
-    [(ngModel)]="value"
-    (ngModelChange)="onChange(value)"
-    (blur)="onTouched()"
+  <mat-select
+    multiple
     [required]="required"
-    [disabled]="disabled"
-    [placeholder]="placeholder">
-  <mat-hint>{{ hint }}</mat-hint>
-  @if (ngControl.hasError('required')) {
-    <mat-error>Is <strong>required</strong></mat-error>
-  }
+    (selectionChange)="onChange($event.value); onTouched()">
+    <mat-select-trigger>
+      {{ngControl.value?.[0] || ''}}
+      @if ((ngControl.value?.length || 0) > 1) {
+        <span class="example-additional-selection">
+          (+{{(ngControl.value?.length || 0) - 1}} {{ngControl.value?.length === 2 ? 'other' : 'others'}})
+        </span>
+      }
+    </mat-select-trigger>
+    @for (topping of toppingList; track topping) {
+  <mat-option [value]="topping">{{topping}}</mat-option>
+}
+  </mat-select>
 </mat-form-field>
+<br>
+value: {{ngControl.value}}
+<br>
+dirty: {{ngControl.dirty}}
+<br>
+disabled: {{ngControl.disabled}}
+<br>
+errors: {{ngControl.errors|json}}
+<br>
+touched: {{ngControl.touched}}
+<br>
+invalid: {{ngControl.invalid}}
