@@ -15,7 +15,7 @@ import {MatSelectModule} from '@angular/material/select';
 
 export class SelectComponent implements ControlValueAccessor {
   @Input() title = '標題名稱';
-  @Input() required = true;
+  @Input() required = false;
   @Input() options: Option[] = [];
 
   value!: string;

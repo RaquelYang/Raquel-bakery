@@ -4,7 +4,8 @@
   <mat-select
     multiple
     [required]="required"
-    (selectionChange)="onChange($event.value); onTouched()">
+    (selectionChange)="onChange($event.value); onTouched()"
+    [(ngModel)]="value">
     <mat-select-trigger>
       {{selectControl.value?.[0]?.display || ''}}
       @if ((selectControl.value?.length || 0) > 1) {
@@ -14,7 +15,7 @@
       }
     </mat-select-trigger>
     @for (option of options; track option) {
-  <mat-option [value]="option">{{option?.display}}</mat-option>
-}
+      <mat-option [value]="option">{{option?.display}}</mat-option>
+    }
   </mat-select>
 </mat-form-field>
