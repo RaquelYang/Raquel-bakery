@@ -4,11 +4,12 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { SelectComponent } from '../../shared/components/ui/form/select/select.component';
 import { RadioComponent } from '../../shared/components/ui/form/radio/radio.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-inventory-management',
   standalone: true,
-  imports: [InputComponent, ReactiveFormsModule, CommonModule, SelectComponent, RadioComponent],
+  imports: [InputComponent, ReactiveFormsModule, CommonModule, SelectComponent, RadioComponent, MatButtonModule],
   templateUrl: './inventory-management.component.html',
   styleUrl: './inventory-management.component.scss'
 })
@@ -29,8 +30,11 @@ export class InventoryManagementComponent {
     this.searchForm = this.fb.group({
       name: '',
       category: [],
-      onSale: false
+      onSale: null
     });
   }
 
+  resetForm(): void {
+    this.searchForm.reset();
+  }
 }
