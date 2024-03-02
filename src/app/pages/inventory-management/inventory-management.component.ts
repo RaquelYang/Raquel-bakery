@@ -3,11 +3,12 @@ import { InputComponent } from '../../shared/components/ui/form/input/input.comp
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { SelectComponent } from '../../shared/components/ui/form/select/select.component';
+import { RadioComponent } from '../../shared/components/ui/form/radio/radio.component';
 
 @Component({
   selector: 'app-inventory-management',
   standalone: true,
-  imports: [InputComponent, ReactiveFormsModule, CommonModule, SelectComponent],
+  imports: [InputComponent, ReactiveFormsModule, CommonModule, SelectComponent, RadioComponent],
   templateUrl: './inventory-management.component.html',
   styleUrl: './inventory-management.component.scss'
 })

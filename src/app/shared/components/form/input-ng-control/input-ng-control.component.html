@@ -1,23 +1,8 @@
 
-<mat-form-field>
-  <mat-label>{{ title }}</mat-label>
-  <mat-select
-    multiple
-    [required]="required"
-    (selectionChange)="onChange($event.value); onTouched()">
-    <mat-select-trigger>
-      {{ngControl.value?.[0] || ''}}
-      @if ((ngControl.value?.length || 0) > 1) {
-        <span class="example-additional-selection">
-          (+{{(ngControl.value?.length || 0) - 1}} {{ngControl.value?.length === 2 ? 'other' : 'others'}})
-        </span>
-      }
-    </mat-select-trigger>
-    @for (topping of toppingList; track topping) {
-  <mat-option [value]="topping">{{topping}}</mat-option>
-}
-  </mat-select>
-</mat-form-field>
+<mat-radio-group (change)="onChange($event.value); onTouched()">
+  <mat-radio-button [value]="true">已上架</mat-radio-button>
+  <mat-radio-button [value]="false">未上架</mat-radio-button>
+</mat-radio-group>
 <br>
 value: {{ngControl.value}}
 <br>

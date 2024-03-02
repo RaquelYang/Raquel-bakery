@@ -1,1 +1,11 @@
-<p>radio works!</p>
+<div class="cus-radio-group">
+  <span class="cus-radio-title">是否上架</span>
+  <label for="isSell" class="cus-radio-label" [ngClass]="{'active': value}">
+    <span>已上架</span>
+    <input type="radio" name="isSell" id="isSell" [value]="true" (change)="onChange(value); onTouched()" [(ngModel)]="value">
+  </label>
+  <label for="isNotSell" class="cus-radio-label" [ngClass]="{'active': !value}">
+    <span>未上架</span>
+    <input type="radio" name="isSell" id="isNotSell" [value]="false" (change)="onChange(value); onTouched()" [(ngModel)]="value">
+  </label>
+</div>

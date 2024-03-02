@@ -4,11 +4,12 @@ import { ControlValueAccessor, FormsModule, NgControl, ReactiveFormsModule } fro
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
 
 @Component({
   selector: 'app-input-ng-control',
   standalone: true,
-  imports: [MatFormFieldModule, MatInputModule, FormsModule, ReactiveFormsModule, CommonModule, MatSelectModule],
+  imports: [MatFormFieldModule, MatInputModule, FormsModule, ReactiveFormsModule, CommonModule, MatSelectModule, MatRadioModule],
   templateUrl: './input-ng-control.component.html',
   styleUrl: './input-ng-control.component.scss'
 })
@@ -32,7 +33,6 @@ export class InputNgControlComponent implements ControlValueAccessor {
   onValidatorChange = () => {};
 
   writeValue(value: string): void {
-    console.log('ngControl', this.ngControl);
     this.value = value;
   }
 
