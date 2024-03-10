@@ -205,7 +205,7 @@
       },
       {
         "file": "src/app/pages/inventory-management/inventory-management.component.html",
-        "hash": "8338166052040544154"
+        "hash": "6230890956478564808"
       },
       {
         "file": "src/app/pages/inventory-management/inventory-management.component.scss",
@@ -213,7 +213,7 @@
       },
       {
         "file": "src/app/pages/inventory-management/inventory-management.component.ts",
-        "hash": "11017920105919133858"
+        "hash": "17953529878472166827"
       },
       {
         "file": "src/app/pages/items-management/items-management.component.html",
@@ -256,20 +256,8 @@
         "hash": "5409347598128707662"
       },
       {
-        "file": "src/app/pages/test-form/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.html",
-        "hash": "3110891640394021755"
-      },
-      {
-        "file": "src/app/pages/test-form/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.scss",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "src/app/pages/test-form/react-form-control-value-accessor-test/react-form-control-value-accessor-test.component.ts",
-        "hash": "16347515700878618516"
-      },
-      {
         "file": "src/app/pages/test-form/react-form-ng-control/react-form-ng-control.component.html",
-        "hash": "17824398251705619533"
+        "hash": "13835041893363289567"
       },
       {
         "file": "src/app/pages/test-form/react-form-ng-control/react-form-ng-control.component.scss",
@@ -277,11 +265,11 @@
       },
       {
         "file": "src/app/pages/test-form/react-form-ng-control/react-form-ng-control.component.ts",
-        "hash": "17016742804097642035"
+        "hash": "5421342189974665108"
       },
       {
         "file": "src/app/pages/test-form/test-form.component.html",
-        "hash": "2175545521832677504"
+        "hash": "15431293768294282053"
       },
       {
         "file": "src/app/pages/test-form/test-form.component.scss",
@@ -289,39 +277,23 @@
       },
       {
         "file": "src/app/pages/test-form/test-form.component.ts",
-        "hash": "15823435252430195897"
+        "hash": "1399176330435641139"
       },
       {
         "file": "src/app/shared/components/form/input-ng-control/input-ng-control.component.html",
-        "hash": "685077742198187421"
+        "hash": "17586354397758954723"
       },
       {
         "file": "src/app/shared/components/form/input-ng-control/input-ng-control.component.scss",
         "hash": "3244421341483603138"
       },
       {
-        "file": "src/app/shared/components/form/input-ng-control/input-ng-control.component.spec.ts",
-        "hash": "10941942827126145624"
-      },
-      {
         "file": "src/app/shared/components/form/input-ng-control/input-ng-control.component.ts",
-        "hash": "8305455869988745137"
-      },
-      {
-        "file": "src/app/shared/components/form/input/input.component.html",
-        "hash": "3131269195189512209"
-      },
-      {
-        "file": "src/app/shared/components/form/input/input.component.scss",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "src/app/shared/components/form/input/input.component.ts",
-        "hash": "1526659090333619673"
+        "hash": "623735646854770991"
       },
       {
         "file": "src/app/shared/components/ui/form/input/input.component.html",
-        "hash": "3927323734927549345"
+        "hash": "15443762077536379047"
       },
       {
         "file": "src/app/shared/components/ui/form/input/input.component.scss",
@@ -333,19 +305,19 @@
       },
       {
         "file": "src/app/shared/components/ui/form/radio/radio.component.html",
-        "hash": "16383234771241856568"
+        "hash": "12055507039388872116"
       },
       {
         "file": "src/app/shared/components/ui/form/radio/radio.component.scss",
-        "hash": "3244421341483603138"
+        "hash": "1030104926318711871"
       },
       {
         "file": "src/app/shared/components/ui/form/radio/radio.component.ts",
-        "hash": "3547723867044660690"
+        "hash": "8606590361298638082"
       },
       {
         "file": "src/app/shared/components/ui/form/select/select.component.html",
-        "hash": "5279552300020856442"
+        "hash": "15925423660465977655"
       },
       {
         "file": "src/app/shared/components/ui/form/select/select.component.scss",
@@ -353,7 +325,7 @@
       },
       {
         "file": "src/app/shared/components/ui/form/select/select.component.ts",
-        "hash": "12101108381104332956"
+        "hash": "15083834574570253758"
       },
       {
         "file": "src/app/shared/resolve/sidebar.resolver.ts",
@@ -372,8 +344,12 @@
         "hash": "3244421341483603138"
       },
       {
+        "file": "src/content/scss/_button.scss",
+        "hash": "10205129990949867546"
+      },
+      {
         "file": "src/content/scss/_material.scss",
-        "hash": "5317782244889221778"
+        "hash": "3837709250048752121"
       },
       {
         "file": "src/content/scss/_tailwind.scss",
@@ -381,11 +357,15 @@
       },
       {
         "file": "src/content/scss/_title.scss",
-        "hash": "6885494850741624127"
+        "hash": "15562684432857773798"
+      },
+      {
+        "file": "src/content/scss/_variable.scss",
+        "hash": "3244421341483603138"
       },
       {
         "file": "src/content/scss/_vendor.scss",
-        "hash": "15214319600126884843"
+        "hash": "10794716291972046014"
       },
       {
         "file": "src/favicon.ico",
