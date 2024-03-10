@@ -28,12 +28,12 @@
               placeholder="請輸入密碼"
               formControlName="password"
             >
-              <button type='button' matSuffix mat-icon-button (click)="lock = !lock;">
-                <mat-icon *ngIf="lock; else tLockOpen">lock</mat-icon>
-                <ng-template #tLockOpen>
-                  <mat-icon>lock_open</mat-icon>
-                </ng-template>
-              </button>
+            <button type='button' matSuffix mat-icon-button (click)="lock = !lock;">
+              <mat-icon *ngIf="lock; else tLockOpen">lock</mat-icon>
+              <ng-template #tLockOpen>
+                <mat-icon>lock_open</mat-icon>
+              </ng-template>
+            </button>
 
             @if (password.hasError('required')) {
               <mat-error>密碼為必填</mat-error>

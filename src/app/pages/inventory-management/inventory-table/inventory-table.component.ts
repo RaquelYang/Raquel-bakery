@@ -3,11 +3,12 @@ import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
 import {MatSort, MatSortModule} from '@angular/material/sort';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-inventory-table',
   standalone: true,
-  imports: [MatPaginator, MatPaginatorModule, MatSort, MatSortModule, MatTableModule, MatSlideToggleModule],
+  imports: [MatPaginator, MatPaginatorModule, MatSort, MatSortModule, MatTableModule, MatSlideToggleModule, MatIconModule],
   templateUrl: './inventory-table.component.html',
   styleUrl: './inventory-table.component.scss'
 })
