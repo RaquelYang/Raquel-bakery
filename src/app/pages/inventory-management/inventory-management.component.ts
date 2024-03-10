@@ -5,11 +5,12 @@ import { CommonModule } from '@angular/common';
 import { SelectComponent } from '../../shared/components/ui/form/select/select.component';
 import { RadioComponent } from '../../shared/components/ui/form/radio/radio.component';
 import { MatButtonModule } from '@angular/material/button';
+import { InventoryTableComponent } from './inventory-table/inventory-table.component';
 
 @Component({
   selector: 'app-inventory-management',
   standalone: true,
-  imports: [InputComponent, ReactiveFormsModule, CommonModule, SelectComponent, RadioComponent, MatButtonModule],
+  imports: [InputComponent, ReactiveFormsModule, CommonModule, SelectComponent, RadioComponent, MatButtonModule, InventoryTableComponent],
   templateUrl: './inventory-management.component.html',
   styleUrl: './inventory-management.component.scss'
 })

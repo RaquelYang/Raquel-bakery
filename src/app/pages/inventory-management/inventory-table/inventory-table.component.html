@@ -1,0 +1,45 @@
+<h2 class="search-title">產品列表</h2>
+
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource" matSort>
+
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+      <td mat-cell *matCellDef="let row"> {{row.id}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> 品項名稱 </th>
+      <td mat-cell *matCellDef="let row"> {{row.name}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="category">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> 品項類別 </th>
+      <td mat-cell *matCellDef="let row"> {{row.category}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="isSell">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> 是否上架 </th>
+      <td mat-cell *matCellDef="let row">
+        <mat-slide-toggle>上架</mat-slide-toggle>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> 行動 </th>
+      <td mat-cell *matCellDef="let row">
+        編輯/刪除
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    <!-- Row shown when there is no matching data. -->
+    <tr class="mat-row" *matNoDataRow>
+      <!-- <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td> -->
+    </tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+</div>
