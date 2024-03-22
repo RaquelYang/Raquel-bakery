@@ -39,7 +39,7 @@ export class InventoryManagementComponent implements OnInit {
   initForm(): void {
     this.searchForm = this.fb.group({
       name: '',
-      category: [],
+      categories: [],
       onSale: null
     });
   }

@@ -6,7 +6,7 @@
       title="品項名稱"
     ></ui-input>
     <ui-select
-      formControlName="category"
+      formControlName="categories"
       title="品項類別"
       [options]="options"
     ></ui-select>
@@ -19,6 +19,6 @@
 </div>
 
 <!-- {{searchForm.value|json}} -->
-<app-inventory-table [items]="users | sortItems"></app-inventory-table>
+<app-inventory-table [items]="users | sortItems : searchForm.value"></app-inventory-table>
 
 <div style="height: 100px;"></div>

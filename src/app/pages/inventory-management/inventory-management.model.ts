@@ -18,3 +18,9 @@ export const CATEGORIES: string[] = [
   '司康',
   '吐司',
 ];
+
+export interface SearchForm {
+  name: string;
+  categories: string[];
+  onSale: boolean
+}

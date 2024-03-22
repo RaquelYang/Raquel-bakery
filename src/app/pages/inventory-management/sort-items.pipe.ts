@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { UserData } from './inventory-management.model';
+import { SearchForm, UserData } from './inventory-management.model';
 
 @Pipe({
   name: 'sortItems',
@@ -7,7 +7,8 @@ import { UserData } from './inventory-management.model';
 })
 export class SortItemsPipe implements PipeTransform {
 
-  transform(value: UserData[]): UserData[] {
+  transform(value: UserData[], filterCondition: SearchForm): UserData[] {
+    console.log('filterCondition', filterCondition);
     return value
   }
 
