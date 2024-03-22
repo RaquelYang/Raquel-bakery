@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, Input, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, Input, ViewChild, OnInit } from '@angular/core';
 import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
 import {MatSort, MatSortModule} from '@angular/material/sort';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
@@ -13,16 +13,20 @@ import { UserData } from '../inventory-management.model';
   templateUrl: './inventory-table.component.html',
   styleUrl: './inventory-table.component.scss'
 })
-export class InventoryTableComponent implements AfterViewInit {
+export class InventoryTableComponent implements AfterViewInit, OnInit {
   @Input() items: UserData[] = [];
 
   displayedColumns: string[] = ['id', 'name', 'category', 'isSell', 'actions'];
-  dataSource: MatTableDataSource<UserData>;
+  dataSource!: MatTableDataSource<UserData>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
   constructor() {
+
+  }
+
+  ngOnInit(): void {
     this.dataSource = new MatTableDataSource(this.items);
   }
 
@@ -30,6 +34,8 @@ export class InventoryTableComponent implements AfterViewInit {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
   }
+
+
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
