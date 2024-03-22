@@ -1,7 +1,7 @@
 <h2 class="search-title">產品列表</h2>
 
 <div class="mat-elevation-z8">
-  <table mat-table [dataSource]="dataSource" matSort>
+  <table mat-table [dataSource]="dataSource " matSort>
 
     <ng-container matColumnDef="id">
       <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
@@ -21,15 +21,15 @@
     <ng-container matColumnDef="isSell">
       <th mat-header-cell *matHeaderCellDef mat-sort-header> 是否上架 </th>
       <td mat-cell *matCellDef="let row">
-        <mat-slide-toggle></mat-slide-toggle>
+        {{row.isSell ? '已上架' : '未上架'}}
       </td>
     </ng-container>
 
     <ng-container matColumnDef="actions">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header> 行動 </th>
+      <th mat-header-cell *matHeaderCellDef> 行動 </th>
       <td mat-cell *matCellDef="let row">
-        <mat-icon>edit</mat-icon>
-        <mat-icon>delete</mat-icon>
+        <mat-icon color="primary">edit</mat-icon>
+        <mat-icon color="warn">delete</mat-icon>
       </td>
     </ng-container>
 

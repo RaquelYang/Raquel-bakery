@@ -19,4 +19,6 @@
 </div>
 
 <!-- {{searchForm.value|json}} -->
-<app-inventory-table></app-inventory-table>
+<app-inventory-table [items]="users | sortItems"></app-inventory-table>
+
+<div style="height: 100px;"></div>

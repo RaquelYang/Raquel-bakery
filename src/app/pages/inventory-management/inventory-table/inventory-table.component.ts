@@ -1,9 +1,10 @@
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, Input, ViewChild } from '@angular/core';
 import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
 import {MatSort, MatSortModule} from '@angular/material/sort';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import { MatIconModule } from '@angular/material/icon';
+import { UserData } from '../inventory-management.model';
 
 @Component({
   selector: 'app-inventory-table',
@@ -13,6 +14,8 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './inventory-table.component.scss'
 })
 export class InventoryTableComponent implements AfterViewInit {
+  @Input() items: UserData[] = [];
+
   displayedColumns: string[] = ['id', 'name', 'category', 'isSell', 'actions'];
   dataSource: MatTableDataSource<UserData>;
 
@@ -20,11 +23,7 @@ export class InventoryTableComponent implements AfterViewInit {
   @ViewChild(MatSort) sort!: MatSort;
 
   constructor() {
-    // Create 100 users
-    const users = Array.from({length: 100}, (_, k) => createNewUser(k + 1));
-
-    // Assign the data to the data source for the table to render
-    this.dataSource = new MatTableDataSource(users);
+    this.dataSource = new MatTableDataSource(this.items);
   }
 
   ngAfterViewInit(): void {
@@ -41,37 +40,3 @@ export class InventoryTableComponent implements AfterViewInit {
     }
   }
 }
-
-/** Builds and returns a new User. */
-function createNewUser(id: number): UserData {
-  const name = NAMES[Math.round(Math.random() * (NAMES.length - 1))]
-  const category = CATEGORIES[Math.round(Math.random() * (CATEGORIES.length - 1))]
-
-  return {
-    id: id.toString(),
-    name: name,
-    category: category,
-    isSell: false,
-  };
-
-}
-
-export interface UserData {
-  id: string;
-  name: string;
-  category: string;
-  isSell: boolean;
-}
-
-const NAMES: string[] = [
-  '麵包',
-  '司康',
-  '焙查司康',
-  '奶油司康'
-];
-
-const CATEGORIES: string[] = [
-  '麵包',
-  '司康',
-  '吐司',
-];

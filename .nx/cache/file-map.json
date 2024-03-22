@@ -193,7 +193,7 @@
       },
       {
         "file": "src/app/login/login.component.html",
-        "hash": "7663676519771066042"
+        "hash": "3693360325435216749"
       },
       {
         "file": "src/app/login/login.component.scss",
@@ -205,7 +205,7 @@
       },
       {
         "file": "src/app/pages/inventory-management/inventory-management.component.html",
-        "hash": "6230890956478564808"
+        "hash": "11619173201810100704"
       },
       {
         "file": "src/app/pages/inventory-management/inventory-management.component.scss",
@@ -213,7 +213,19 @@
       },
       {
         "file": "src/app/pages/inventory-management/inventory-management.component.ts",
-        "hash": "17953529878472166827"
+        "hash": "1955251403823813450"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-table/inventory-table.component.html",
+        "hash": "13928583192051600554"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-table/inventory-table.component.scss",
+        "hash": "14860122605769298386"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-table/inventory-table.component.ts",
+        "hash": "3175036448517793157"
       },
       {
         "file": "src/app/pages/items-management/items-management.component.html",
@@ -305,11 +317,11 @@
       },
       {
         "file": "src/app/shared/components/ui/form/radio/radio.component.html",
-        "hash": "12055507039388872116"
+        "hash": "9009248887042196708"
       },
       {
         "file": "src/app/shared/components/ui/form/radio/radio.component.scss",
-        "hash": "1030104926318711871"
+        "hash": "8390274927788500158"
       },
       {
         "file": "src/app/shared/components/ui/form/radio/radio.component.ts",
@@ -348,10 +360,6 @@
         "hash": "10205129990949867546"
       },
       {
-        "file": "src/content/scss/_material.scss",
-        "hash": "3837709250048752121"
-      },
-      {
         "file": "src/content/scss/_tailwind.scss",
         "hash": "2534608228189406761"
       },
@@ -365,7 +373,15 @@
       },
       {
         "file": "src/content/scss/_vendor.scss",
-        "hash": "10794716291972046014"
+        "hash": "11139321417367129267"
+      },
+      {
+        "file": "src/content/scss/material/_icon.scss",
+        "hash": "6953637956756617583"
+      },
+      {
+        "file": "src/content/scss/material/_input.scss",
+        "hash": "3837709250048752121"
       },
       {
         "file": "src/favicon.ico",
