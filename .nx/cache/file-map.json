@@ -93,7 +93,7 @@
       },
       {
         "file": "angular.json",
-        "hash": "10190339669329216057"
+        "hash": "6637371800841719620"
       },
       {
         "file": "package-lock.json",
@@ -204,20 +204,36 @@
         "hash": "16565200814719555022"
       },
       {
-        "file": "src/app/pages/inventory-management/inventory-management.component.html",
-        "hash": "11619173201810100704"
+        "file": "src/app/pages/inventory-management/add-item-dialog/add-item-dialog.component.html",
+        "hash": "13366532339032051436"
       },
       {
-        "file": "src/app/pages/inventory-management/inventory-management.component.scss",
+        "file": "src/app/pages/inventory-management/add-item-dialog/add-item-dialog.component.scss",
         "hash": "3244421341483603138"
       },
       {
+        "file": "src/app/pages/inventory-management/add-item-dialog/add-item-dialog.component.ts",
+        "hash": "9687326903050682142"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-management.component.html",
+        "hash": "13887808657230861164"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-management.component.scss",
+        "hash": "8751893518152285811"
+      },
+      {
         "file": "src/app/pages/inventory-management/inventory-management.component.ts",
-        "hash": "1955251403823813450"
+        "hash": "18038253467909823485"
+      },
+      {
+        "file": "src/app/pages/inventory-management/inventory-management.model.ts",
+        "hash": "9280100810702912303"
       },
       {
         "file": "src/app/pages/inventory-management/inventory-table/inventory-table.component.html",
-        "hash": "13928583192051600554"
+        "hash": "18207105157320063389"
       },
       {
         "file": "src/app/pages/inventory-management/inventory-table/inventory-table.component.scss",
@@ -225,7 +241,11 @@
       },
       {
         "file": "src/app/pages/inventory-management/inventory-table/inventory-table.component.ts",
-        "hash": "3175036448517793157"
+        "hash": "10053947477616134187"
+      },
+      {
+        "file": "src/app/pages/inventory-management/sort-items.pipe.ts",
+        "hash": "10621651193589136103"
       },
       {
         "file": "src/app/pages/items-management/items-management.component.html",
@@ -340,12 +360,16 @@
         "hash": "15083834574570253758"
       },
       {
+        "file": "src/app/shared/constants/dialog.constants.ts",
+        "hash": "9280501626867777300"
+      },
+      {
         "file": "src/app/shared/resolve/sidebar.resolver.ts",
         "hash": "13857566223156202336"
       },
       {
-        "file": "src/app/shared/service/sidebar.service.spec.ts",
-        "hash": "11349758495491277401"
+        "file": "src/app/shared/service/dialog.service.ts",
+        "hash": "1195845459633286669"
       },
       {
         "file": "src/app/shared/service/sidebar.service.ts",
