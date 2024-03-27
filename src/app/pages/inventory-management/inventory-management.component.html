@@ -1,24 +1,28 @@
-<h2 class="search-title">搜尋條件</h2>
-<div class="flex justify-between items-center">
-  <form [formGroup]="searchForm">
-    <ui-input
-      formControlName="name"
-      title="品項名稱"
-    ></ui-input>
-    <ui-select
-      formControlName="categories"
-      title="品項類別"
-      [options]="options"
-    ></ui-select>
-    <ui-radio
-      formControlName="onSale"
-      title="是否上架"
-    ></ui-radio>
-  </form>
-  <button (click)="resetForm()">清除條件</button>
+<div class="relative">
+  <h2 class="search-title">搜尋條件</h2>
+  <div class="flex justify-between items-center">
+    <form [formGroup]="searchForm">
+      <ui-input
+        formControlName="name"
+        title="品項名稱"
+      ></ui-input>
+      <ui-select
+        formControlName="categories"
+        title="品項類別"
+        [options]="options"
+      ></ui-select>
+      <ui-radio
+        formControlName="onSale"
+        title="是否上架"
+      ></ui-radio>
+    </form>
+    <button (click)="resetForm()">清除條件</button>
+  </div>
+
+  <app-inventory-table [items]="users | sortItems : searchForm.value"></app-inventory-table>
+  <button mat-fab color="accent" class="add-icon">
+    <mat-icon>add</mat-icon>
+  </button>
+  <div style="height: 100px;"></div>
 </div>
 
-<!-- {{searchForm.value|json}} -->
-<app-inventory-table [items]="users | sortItems : searchForm.value"></app-inventory-table>
-
-<div style="height: 100px;"></div>

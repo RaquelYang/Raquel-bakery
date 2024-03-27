@@ -8,11 +8,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { InventoryTableComponent } from './inventory-table/inventory-table.component';
 import { SortItemsPipe } from './sort-items.pipe';
 import { CATEGORIES, NAMES, UserData } from './inventory-management.model';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-inventory-management',
   standalone: true,
-  imports: [InputComponent, ReactiveFormsModule, CommonModule, SelectComponent, RadioComponent, MatButtonModule, InventoryTableComponent, SortItemsPipe],
+  imports: [InputComponent, ReactiveFormsModule, CommonModule, SelectComponent, RadioComponent, MatButtonModule, InventoryTableComponent, SortItemsPipe, MatIconModule],
   templateUrl: './inventory-management.component.html',
   styleUrl: './inventory-management.component.scss'
 })
@@ -20,20 +21,21 @@ export class InventoryManagementComponent implements OnInit {
   searchForm!: FormGroup;
 
   options = [
-    {display: '麵包', value: '0'},
-    {display: '蛋糕', value: '1'},
-    {display: '吐司', value: '2'},
+    { display: '麵包', value: '0' },
+    { display: '蛋糕', value: '1' },
+    { display: '吐司', value: '2' },
   ]
 
   users: UserData[] = [];
 
-  constructor(private fb: FormBuilder) {
+  constructor(
+    private fb: FormBuilder,
+  ) {
     this.initForm()
-
   }
 
   ngOnInit(): void {
-    this.users = Array.from({length: 100}, (_, k) => this.createNewUser(k + 1));
+    this.users = Array.from({ length: 100 }, (_, k) => this.createNewUser(k + 1));
   }
 
   initForm(): void {
@@ -49,7 +51,7 @@ export class InventoryManagementComponent implements OnInit {
   }
 
   /** Builds and returns a new User. */
- createNewUser(id: number): UserData {
+  createNewUser(id: number): UserData {
     const name = NAMES[Math.round(Math.random() * (NAMES.length - 1))]
     const category = CATEGORIES[Math.round(Math.random() * (CATEGORIES.length - 1))]
 
