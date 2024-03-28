@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, Optional, Self } from '@angular/core';
 import { ControlValueAccessor, FormsModule, NgControl, ReactiveFormsModule } from '@angular/forms';
-import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatFormFieldAppearance, MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
 @Component({
@@ -17,6 +17,7 @@ export class InputComponent implements ControlValueAccessor {
   @Input() required = false;
   @Input() type = 'text';
   @Input() title = '標題名稱';
+  @Input() appearance: MatFormFieldAppearance = 'outline'
 
   value!: string;
   disabled = false;
@@ -25,9 +26,9 @@ export class InputComponent implements ControlValueAccessor {
     this.inputControl.valueAccessor = this;
   }
 
-  onChange: OnChangeFn<string> = () => {};
-  onTouched: OnTouched = () => {};
-  onValidatorChange = () => {};
+  onChange: OnChangeFn<string> = () => { };
+  onTouched: OnTouched = () => { };
+  onValidatorChange = () => { };
 
   writeValue(value: string): void {
     this.value = value;
