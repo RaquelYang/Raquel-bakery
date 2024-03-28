@@ -1,0 +1,18 @@
+<div
+    class="dialog-template-header"
+    [class.no-header]="title.length === 0">
+    <span class="text-xl">
+      {{title}}
+    </span>
+    <mat-icon mat-dialog-close class="font-bold">close</mat-icon>
+</div>
+
+<div mat-dialog-content class="dialog-template-content">
+    <div class="text-xl mb-4">{{dialogTitle}}</div>
+    <ng-content select="[content]"></ng-content>
+</div>
+
+<div mat-dialog-actions [align]="'end'" class="w-full">
+    <button mat-stroked-button color="primary">取消</button>
+    <button mat-raised-button color="primary">新增</button>
+</div>

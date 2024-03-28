@@ -1,0 +1,20 @@
+@import '../../../../../../content/scss/variable';
+
+$header: 61px;
+$padding: 32px;
+$actions: 69px;
+
+
+.dialog-template-header {
+  @apply text-lg;
+  padding: 16px;
+  border-bottom: 2px solid #666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.no-header {
+  display: none;
+}

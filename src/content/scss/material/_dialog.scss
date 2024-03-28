@@ -1,6 +1,9 @@
+$dialog-header: 61px;
+$dialog-actions: 69px;
+
 .cus-dialog-lg {
-    width: 90%;
-    height: 90%;
+    width: 90vw;
+    height: 90vh;
 
     @media #{$phone} {
         width: 100%;
@@ -8,8 +11,8 @@
 }
 
 .cus-dialog-md {
-    width: 70%;
-    height: 70%;
+    width: 70vw;
+    height: 70vh;
 
     @media #{$phone} {
         width: 100%;
@@ -23,4 +26,20 @@
     @media #{$phone} {
         width: 100%;
     }
+}
+
+.mdc-dialog__actions {
+  padding: 1rem !important;
+}
+
+.mdc-dialog .mdc-dialog__content {
+  padding: 1rem !important;
+}
+
+.cus-dialog-lg .mdc-dialog__content {
+  height: calc(90vh - #{$dialog-header} - #{$dialog-actions});
+}
+
+.cus-dialog-md .mdc-dialog__content {
+  height: calc(70vh - #{$dialog-header} - #{$dialog-actions});
 }

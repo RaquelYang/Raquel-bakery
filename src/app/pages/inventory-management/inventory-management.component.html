@@ -20,7 +20,7 @@
   </div>
 
   <app-inventory-table [items]="users | sortItems : searchForm.value"></app-inventory-table>
-  <button mat-fab color="accent" class="add-icon">
+  <button mat-fab color="accent" class="add-icon" (click)="openAddItemDialog()">
     <mat-icon>add</mat-icon>
   </button>
   <div style="height: 100px;"></div>

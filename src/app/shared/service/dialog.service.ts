@@ -10,7 +10,7 @@ export class DialogService {
 
   constructor(private dialog: MatDialog) { }
 
-  openDialog<T, D>(component: ComponentType<T>, dialogSize: DIALOG_SIZE, data: D): MatDialogRef<T, D> {
+  openDialog<T, D>(component: ComponentType<T>, dialogSize: DIALOG_SIZE, data?: D): MatDialogRef<T, D> {
     const config = DialogConfig.find(config => config.type === dialogSize);
 
     const dialogConfig = {

@@ -1,1 +1,9 @@
-<p>add-item-dialog works!</p>
+<ui-dialog-template [title]="'12345'" [dialogTitle]="'請輸入基本資料'">
+  <div content [formGroup]="itemForm">
+    <ui-input
+      formControlName="name"
+      [required]="true"
+    ></ui-input>
+  </div>
+</ui-dialog-template>
+

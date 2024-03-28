@@ -9,6 +9,9 @@ import { InventoryTableComponent } from './inventory-table/inventory-table.compo
 import { SortItemsPipe } from './sort-items.pipe';
 import { CATEGORIES, NAMES, UserData } from './inventory-management.model';
 import { MatIconModule } from '@angular/material/icon';
+import { DialogService } from '../../shared/service/dialog.service';
+import { DIALOG_SIZE } from '../../shared/constants/dialog.constants';
+import { AddItemDialogComponent } from './add-item-dialog/add-item-dialog.component';
 
 @Component({
   selector: 'app-inventory-management',
@@ -30,6 +33,7 @@ export class InventoryManagementComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
+    private dialogService: DialogService,
   ) {
     this.initForm()
   }
@@ -61,6 +65,9 @@ export class InventoryManagementComponent implements OnInit {
       category: category,
       isSell: false,
     };
+  }
 
+  openAddItemDialog(): void {
+    this.dialogService.openDialog(AddItemDialogComponent, DIALOG_SIZE.MD)
   }
 }
